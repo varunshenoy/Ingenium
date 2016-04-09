@@ -1,0 +1,247 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImageLoader"
+provides-nominal:
+- "C8Ingenium11ImageLoader"
+provides-member:
+- ["C8Ingenium11ImageLoader", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "dispatch_get_main_queue"
+- "String"
+- !private "Void"
+- !private "NSURLSessionDataTask"
+- !private "!="
+- !private "NSURL"
+- !private "NSURLSession"
+- "UIImage"
+- "ImageLoader"
+- "NSCache"
+- !private "dispatch_get_global_queue"
+- !private "DISPATCH_QUEUE_PRIORITY_BACKGROUND"
+- !private "dispatch_async"
+- !private "NSData"
+depends-member:
+- !private ["PSs9AnyObject", "DISPATCH_QUEUE_PRIORITY_BACKGROUND"]
+- !private ["PSs9AnyObject", "ImageLoader"]
+- ["PSs9AnyObject", "NSCache"]
+- !private ["PSs9AnyObject", "NSURL"]
+- !private ["PSs9AnyObject", "NSURLSession"]
+- !private ["PSs9AnyObject", "UIImage"]
+- !private ["PSs9AnyObject", "cache"]
+- !private ["PSs9AnyObject", "dataTaskWithURL"]
+- !private ["PSs9AnyObject", "dispatch_async"]
+- !private ["PSs9AnyObject", "dispatch_get_global_queue"]
+- !private ["PSs9AnyObject", "dispatch_get_main_queue"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "objectForKey"]
+- !private ["PSs9AnyObject", "resume"]
+- !private ["PSs9AnyObject", "setObject"]
+- !private ["PSs9AnyObject", "sharedSession"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "dataTaskWithURL"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "objectForKey"]
+- !private ["PSs11CVarArgType", "resume"]
+- !private ["PSs11CVarArgType", "setObject"]
+- !private ["PSs11CVarArgType", "sharedSession"]
+- !private ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "dataTaskWithURL"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "objectForKey"]
+- !private ["PSs23CustomStringConvertible", "resume"]
+- !private ["PSs23CustomStringConvertible", "setObject"]
+- !private ["PSs23CustomStringConvertible", "sharedSession"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "dataTaskWithURL"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "objectForKey"]
+- !private ["PSs9Equatable", "resume"]
+- !private ["PSs9Equatable", "setObject"]
+- !private ["PSs9Equatable", "sharedSession"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "dataTaskWithURL"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "objectForKey"]
+- !private ["PSs8Hashable", "resume"]
+- !private ["PSs8Hashable", "setObject"]
+- !private ["PSs8Hashable", "sharedSession"]
+- !private ["C8Ingenium11ImageLoader", "DISPATCH_QUEUE_PRIORITY_BACKGROUND"]
+- ["C8Ingenium11ImageLoader", "ImageLoader"]
+- ["C8Ingenium11ImageLoader", "NSCache"]
+- !private ["C8Ingenium11ImageLoader", "NSData"]
+- !private ["C8Ingenium11ImageLoader", "NSURL"]
+- !private ["C8Ingenium11ImageLoader", "NSURLSession"]
+- !private ["C8Ingenium11ImageLoader", "NSURLSessionDataTask"]
+- ["C8Ingenium11ImageLoader", "String"]
+- ["C8Ingenium11ImageLoader", "UIImage"]
+- !private ["C8Ingenium11ImageLoader", "Void"]
+- ["C8Ingenium11ImageLoader", "cache"]
+- ["C8Ingenium11ImageLoader", "deinit"]
+- !private ["C8Ingenium11ImageLoader", "dispatch_async"]
+- !private ["C8Ingenium11ImageLoader", "dispatch_get_global_queue"]
+- !private ["C8Ingenium11ImageLoader", "dispatch_get_main_queue"]
+- ["C8Ingenium11ImageLoader", "imageForUrl"]
+- ["C8Ingenium11ImageLoader", "init"]
+- ["C8Ingenium11ImageLoader", "sharedLoader"]
+- !private ["SQ", "deinit"]
+- ["CSo7NSCache", "init"]
+- !private ["CSo7NSCache", "objectForKey"]
+- !private ["CSo7NSCache", "setObject"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["CSo8NSObject", "dataTaskWithURL"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "objectForKey"]
+- !private ["CSo8NSObject", "resume"]
+- !private ["CSo8NSObject", "setObject"]
+- !private ["CSo8NSObject", "sharedSession"]
+- !private ["PSo16NSObjectProtocol", "dataTaskWithURL"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "objectForKey"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- !private ["PSo16NSObjectProtocol", "setObject"]
+- !private ["PSo16NSObjectProtocol", "sharedSession"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo5NSURL", "init"]
+- !private ["CSo12NSURLSession", "dataTaskWithURL"]
+- !private ["CSo12NSURLSession", "sharedSession"]
+- !private ["CSo20NSURLSessionDataTask", "resume"]
+- !private ["CSo16NSURLSessionTask", "resume"]
+- !private ["PSs21NilLiteralConvertible", "Some"]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["SS", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["CSo7UIImage", "init"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs32_FileReferenceLiteralConvertible", "init"]
+- !private ["PSs24_ImageLiteralConvertible", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C8Ingenium11ImageLoader"
+- !private "SQ"
+- "CSo7NSCache"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSURL"
+- !private "CSo12NSURLSession"
+- !private "CSo20NSURLSessionDataTask"
+- !private "CSo16NSURLSessionTask"
+- !private "PSs21NilLiteralConvertible"
+- !private "Sq"
+- !private "SS"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo7UIImage"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs32_FileReferenceLiteralConvertible"
+- !private "PSs24_ImageLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFURL.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFTask.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFDefines.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/Bolts.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFPurchase.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFProduct.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFPush.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFInstallation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFSession.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFRole.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFRelation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFQuery.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFFile.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFConfig.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFCloud.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFObject.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFUser.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFACL.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/Parse.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "8f17315013ba3c284cd59f0450e494af"

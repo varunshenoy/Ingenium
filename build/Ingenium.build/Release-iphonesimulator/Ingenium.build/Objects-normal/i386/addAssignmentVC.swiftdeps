@@ -1,0 +1,986 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "addAssignmentVC"
+provides-nominal:
+- "C8Ingenium15addAssignmentVC"
+provides-member:
+- ["C8Ingenium15addAssignmentVC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "taskDescrip"
+- "pickerDataSource"
+- "subjectPicker"
+- "addAssignment"
+- "prepareForSegue"
+- "taskTitle"
+- "pickerView"
+- "pickerView"
+- "viewDidLoad"
+- "preferredStatusBarStyle"
+- "loadedAssignments"
+- "numberOfComponentsInPickerView"
+depends-top-level:
+- !private "PFUser"
+- "UIStoryboardSegue"
+- "Int"
+- !private "print"
+- "AnyObject"
+- !private "=="
+- "UIPickerViewDelegate"
+- "StringLiteralType"
+- "DesignableTextField"
+- "UIPickerViewDataSource"
+- "Array"
+- "UIStatusBarStyle"
+- "String"
+- "UIPickerView"
+- "UIViewController"
+- "addAssignmentVC"
+- !private "!="
+- "Assignment"
+- "DesignableTextView"
+- !private "UITabBarController"
+depends-member:
+- ["PSs9AnyObject", "Assignment"]
+- !private ["PSs9AnyObject", "PFUser"]
+- !private ["PSs9AnyObject", "String"]
+- !private ["PSs9AnyObject", "UIStatusBarStyle"]
+- ["PSs9AnyObject", "addAssignment"]
+- !private ["PSs9AnyObject", "currentUser"]
+- !private ["PSs9AnyObject", "dataSource"]
+- !private ["PSs9AnyObject", "delegate"]
+- !private ["PSs9AnyObject", "descrip"]
+- !private ["PSs9AnyObject", "destinationViewController"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- !private ["PSs9AnyObject", "identifier"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "loadedAssignments"]
+- ["PSs9AnyObject", "numberOfComponentsInPickerView"]
+- ["PSs9AnyObject", "pickerDataSource"]
+- ["PSs9AnyObject", "pickerView"]
+- ["PSs9AnyObject", "preferredStatusBarStyle"]
+- ["PSs9AnyObject", "prepareForSegue"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "saveInBackground"]
+- !private ["PSs9AnyObject", "selectedIndex"]
+- !private ["PSs9AnyObject", "selectedRowInComponent"]
+- !private ["PSs9AnyObject", "subject"]
+- ["PSs9AnyObject", "subjectPicker"]
+- !private ["PSs9AnyObject", "subscript"]
+- ["PSs9AnyObject", "taskDescrip"]
+- ["PSs9AnyObject", "taskTitle"]
+- !private ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "title"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- ["Sa", "Element"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["PSs23ArrayLiteralConvertible", "append"]
+- !private ["PSs23ArrayLiteralConvertible", "count"]
+- ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "subscript"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["C8Ingenium10Assignment", "descrip"]
+- !private ["C8Ingenium10Assignment", "init"]
+- !private ["C8Ingenium10Assignment", "subject"]
+- !private ["C8Ingenium10Assignment", "title"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- ["PSs11CVarArgType", "Assignment"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "PFUser"]
+- !private ["PSs11CVarArgType", "String"]
+- !private ["PSs11CVarArgType", "UIStatusBarStyle"]
+- ["PSs11CVarArgType", "addAssignment"]
+- !private ["PSs11CVarArgType", "currentUser"]
+- !private ["PSs11CVarArgType", "dataSource"]
+- !private ["PSs11CVarArgType", "delegate"]
+- !private ["PSs11CVarArgType", "descrip"]
+- !private ["PSs11CVarArgType", "destinationViewController"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "identifier"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "loadedAssignments"]
+- ["PSs11CVarArgType", "numberOfComponentsInPickerView"]
+- ["PSs11CVarArgType", "pickerDataSource"]
+- ["PSs11CVarArgType", "pickerView"]
+- ["PSs11CVarArgType", "preferredStatusBarStyle"]
+- ["PSs11CVarArgType", "prepareForSegue"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "saveInBackground"]
+- !private ["PSs11CVarArgType", "selectedIndex"]
+- !private ["PSs11CVarArgType", "selectedRowInComponent"]
+- !private ["PSs11CVarArgType", "subject"]
+- ["PSs11CVarArgType", "subjectPicker"]
+- !private ["PSs11CVarArgType", "subscript"]
+- ["PSs11CVarArgType", "taskDescrip"]
+- ["PSs11CVarArgType", "taskTitle"]
+- !private ["PSs11CVarArgType", "text"]
+- !private ["PSs11CVarArgType", "title"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- ["PSs14CollectionType", "Element"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "append"]
+- !private ["PSs14CollectionType", "count"]
+- ["PSs14CollectionType", "init"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "append"]
+- !private ["PSs28CustomDebugStringConvertible", "count"]
+- ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", "Assignment"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "PFUser"]
+- !private ["PSs23CustomStringConvertible", "String"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "UIStatusBarStyle"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "addAssignment"]
+- !private ["PSs23CustomStringConvertible", "append"]
+- !private ["PSs23CustomStringConvertible", "count"]
+- !private ["PSs23CustomStringConvertible", "currentUser"]
+- !private ["PSs23CustomStringConvertible", "dataSource"]
+- !private ["PSs23CustomStringConvertible", "delegate"]
+- !private ["PSs23CustomStringConvertible", "descrip"]
+- !private ["PSs23CustomStringConvertible", "destinationViewController"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "identifier"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "loadedAssignments"]
+- ["PSs23CustomStringConvertible", "numberOfComponentsInPickerView"]
+- ["PSs23CustomStringConvertible", "pickerDataSource"]
+- ["PSs23CustomStringConvertible", "pickerView"]
+- ["PSs23CustomStringConvertible", "preferredStatusBarStyle"]
+- ["PSs23CustomStringConvertible", "prepareForSegue"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "saveInBackground"]
+- !private ["PSs23CustomStringConvertible", "selectedIndex"]
+- !private ["PSs23CustomStringConvertible", "selectedRowInComponent"]
+- !private ["PSs23CustomStringConvertible", "subject"]
+- ["PSs23CustomStringConvertible", "subjectPicker"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", "taskDescrip"]
+- ["PSs23CustomStringConvertible", "taskTitle"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- !private ["PSs23CustomStringConvertible", "title"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["C8Ingenium19DesignableTextField", "text"]
+- !private ["C8Ingenium18DesignableTextView", "text"]
+- ["PSs9Equatable", "Assignment"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "LightContent"]
+- !private ["PSs9Equatable", "PFUser"]
+- !private ["PSs9Equatable", "String"]
+- !private ["PSs9Equatable", "UIStatusBarStyle"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "addAssignment"]
+- !private ["PSs9Equatable", "currentUser"]
+- !private ["PSs9Equatable", "dataSource"]
+- !private ["PSs9Equatable", "delegate"]
+- !private ["PSs9Equatable", "descrip"]
+- !private ["PSs9Equatable", "destinationViewController"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- !private ["PSs9Equatable", "identifier"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "loadedAssignments"]
+- ["PSs9Equatable", "numberOfComponentsInPickerView"]
+- ["PSs9Equatable", "pickerDataSource"]
+- ["PSs9Equatable", "pickerView"]
+- ["PSs9Equatable", "preferredStatusBarStyle"]
+- ["PSs9Equatable", "prepareForSegue"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "saveInBackground"]
+- !private ["PSs9Equatable", "selectedIndex"]
+- !private ["PSs9Equatable", "selectedRowInComponent"]
+- !private ["PSs9Equatable", "subject"]
+- ["PSs9Equatable", "subjectPicker"]
+- !private ["PSs9Equatable", "subscript"]
+- ["PSs9Equatable", "taskDescrip"]
+- ["PSs9Equatable", "taskTitle"]
+- !private ["PSs9Equatable", "text"]
+- !private ["PSs9Equatable", "title"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- ["PSs8Hashable", "Assignment"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "LightContent"]
+- !private ["PSs8Hashable", "PFUser"]
+- !private ["PSs8Hashable", "String"]
+- !private ["PSs8Hashable", "UIStatusBarStyle"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "addAssignment"]
+- !private ["PSs8Hashable", "currentUser"]
+- !private ["PSs8Hashable", "dataSource"]
+- !private ["PSs8Hashable", "delegate"]
+- !private ["PSs8Hashable", "descrip"]
+- !private ["PSs8Hashable", "destinationViewController"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "identifier"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "loadedAssignments"]
+- ["PSs8Hashable", "numberOfComponentsInPickerView"]
+- ["PSs8Hashable", "pickerDataSource"]
+- ["PSs8Hashable", "pickerView"]
+- ["PSs8Hashable", "preferredStatusBarStyle"]
+- ["PSs8Hashable", "prepareForSegue"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "saveInBackground"]
+- !private ["PSs8Hashable", "selectedIndex"]
+- !private ["PSs8Hashable", "selectedRowInComponent"]
+- !private ["PSs8Hashable", "subject"]
+- ["PSs8Hashable", "subjectPicker"]
+- !private ["PSs8Hashable", "subscript"]
+- ["PSs8Hashable", "taskDescrip"]
+- ["PSs8Hashable", "taskTitle"]
+- !private ["PSs8Hashable", "text"]
+- !private ["PSs8Hashable", "title"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- ["PSs9Indexable", "Element"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "append"]
+- !private ["PSs9Indexable", "count"]
+- ["PSs9Indexable", "init"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "_Element"]
+- !private ["PSs21MutableCollectionType", "append"]
+- !private ["PSs21MutableCollectionType", "count"]
+- ["PSs21MutableCollectionType", "init"]
+- !private ["PSs21MutableCollectionType", "subscript"]
+- ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "_Element"]
+- !private ["PSs16MutableIndexable", "append"]
+- !private ["PSs16MutableIndexable", "count"]
+- ["PSs16MutableIndexable", "init"]
+- !private ["PSs16MutableIndexable", "subscript"]
+- ["PSs16MutableSliceable", "Element"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "_Element"]
+- !private ["PSs16MutableSliceable", "append"]
+- !private ["PSs16MutableSliceable", "count"]
+- ["PSs16MutableSliceable", "init"]
+- !private ["PSs16MutableSliceable", "subscript"]
+- ["PSo8NSCoding", "Assignment"]
+- !private ["PSo8NSCoding", "PFUser"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "UIStatusBarStyle"]
+- ["PSo8NSCoding", "addAssignment"]
+- !private ["PSo8NSCoding", "dataSource"]
+- !private ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "loadedAssignments"]
+- ["PSo8NSCoding", "numberOfComponentsInPickerView"]
+- ["PSo8NSCoding", "pickerDataSource"]
+- ["PSo8NSCoding", "pickerView"]
+- ["PSo8NSCoding", "preferredStatusBarStyle"]
+- ["PSo8NSCoding", "prepareForSegue"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "selectedIndex"]
+- !private ["PSo8NSCoding", "selectedRowInComponent"]
+- ["PSo8NSCoding", "subjectPicker"]
+- ["PSo8NSCoding", "taskDescrip"]
+- ["PSo8NSCoding", "taskTitle"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "Assignment"]
+- !private ["PSo26NSExtensionRequestHandling", "PFUser"]
+- !private ["PSo26NSExtensionRequestHandling", "String"]
+- !private ["PSo26NSExtensionRequestHandling", "UIStatusBarStyle"]
+- ["PSo26NSExtensionRequestHandling", "addAssignment"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "loadedAssignments"]
+- ["PSo26NSExtensionRequestHandling", "numberOfComponentsInPickerView"]
+- ["PSo26NSExtensionRequestHandling", "pickerDataSource"]
+- ["PSo26NSExtensionRequestHandling", "pickerView"]
+- ["PSo26NSExtensionRequestHandling", "preferredStatusBarStyle"]
+- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- !private ["PSo26NSExtensionRequestHandling", "selectedIndex"]
+- ["PSo26NSExtensionRequestHandling", "subjectPicker"]
+- ["PSo26NSExtensionRequestHandling", "taskDescrip"]
+- ["PSo26NSExtensionRequestHandling", "taskTitle"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Assignment"]
+- ["CSo8NSObject", "DesignableTextField"]
+- ["CSo8NSObject", "DesignableTextView"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "PFUser"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIPickerView"]
+- ["CSo8NSObject", "UIStatusBarStyle"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- !private ["CSo8NSObject", "UITabBarController"]
+- ["CSo8NSObject", "addAssignment"]
+- !private ["CSo8NSObject", "currentUser"]
+- !private ["CSo8NSObject", "dataSource"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "descrip"]
+- !private ["CSo8NSObject", "destinationViewController"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "identifier"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "loadedAssignments"]
+- ["CSo8NSObject", "numberOfComponentsInPickerView"]
+- ["CSo8NSObject", "pickerDataSource"]
+- ["CSo8NSObject", "pickerView"]
+- ["CSo8NSObject", "preferredStatusBarStyle"]
+- ["CSo8NSObject", "prepareForSegue"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "saveInBackground"]
+- !private ["CSo8NSObject", "selectedIndex"]
+- !private ["CSo8NSObject", "selectedRowInComponent"]
+- !private ["CSo8NSObject", "subject"]
+- ["CSo8NSObject", "subjectPicker"]
+- !private ["CSo8NSObject", "subscript"]
+- ["CSo8NSObject", "taskDescrip"]
+- ["CSo8NSObject", "taskTitle"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "title"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "Assignment"]
+- !private ["PSo16NSObjectProtocol", "PFUser"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "UIStatusBarStyle"]
+- ["PSo16NSObjectProtocol", "addAssignment"]
+- !private ["PSo16NSObjectProtocol", "currentUser"]
+- !private ["PSo16NSObjectProtocol", "dataSource"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "descrip"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "identifier"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "loadedAssignments"]
+- ["PSo16NSObjectProtocol", "numberOfComponentsInPickerView"]
+- ["PSo16NSObjectProtocol", "pickerDataSource"]
+- ["PSo16NSObjectProtocol", "pickerView"]
+- ["PSo16NSObjectProtocol", "preferredStatusBarStyle"]
+- ["PSo16NSObjectProtocol", "prepareForSegue"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "saveInBackground"]
+- !private ["PSo16NSObjectProtocol", "selectedIndex"]
+- !private ["PSo16NSObjectProtocol", "selectedRowInComponent"]
+- !private ["PSo16NSObjectProtocol", "subject"]
+- ["PSo16NSObjectProtocol", "subjectPicker"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- ["PSo16NSObjectProtocol", "taskDescrip"]
+- ["PSo16NSObjectProtocol", "taskTitle"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["CSo8PFObject", "currentUser"]
+- !private ["CSo8PFObject", "saveInBackground"]
+- !private ["CSo8PFObject", "subscript"]
+- !private ["PSo13PFSubclassing", "currentUser"]
+- !private ["PSo13PFSubclassing", "saveInBackground"]
+- !private ["PSo13PFSubclassing", "subscript"]
+- !private ["CSo6PFUser", "currentUser"]
+- !private ["CSo6PFUser", "saveInBackground"]
+- !private ["CSo6PFUser", "subscript"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "append"]
+- !private ["PSs30RangeReplaceableCollectionType", "count"]
+- ["PSs30RangeReplaceableCollectionType", "init"]
+- !private ["PSs30RangeReplaceableCollectionType", "subscript"]
+- !private ["PSs16RawRepresentable", "LightContent"]
+- ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "append"]
+- !private ["PSs12SequenceType", "count"]
+- ["PSs12SequenceType", "init"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["C8Ingenium15SpringTextField", "text"]
+- !private ["C8Ingenium14SpringTextView", "text"]
+- !private ["P8Ingenium10Springable", "text"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "dataSource"]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
+- !private ["PSo29UIAccessibilityIdentification", "selectedRowInComponent"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "dataSource"]
+- !private ["PSo12UIAppearance", "delegate"]
+- !private ["PSo12UIAppearance", "selectedRowInComponent"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "Assignment"]
+- !private ["PSo21UIAppearanceContainer", "PFUser"]
+- !private ["PSo21UIAppearanceContainer", "String"]
+- !private ["PSo21UIAppearanceContainer", "UIStatusBarStyle"]
+- ["PSo21UIAppearanceContainer", "addAssignment"]
+- !private ["PSo21UIAppearanceContainer", "dataSource"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "loadedAssignments"]
+- ["PSo21UIAppearanceContainer", "numberOfComponentsInPickerView"]
+- ["PSo21UIAppearanceContainer", "pickerDataSource"]
+- ["PSo21UIAppearanceContainer", "pickerView"]
+- ["PSo21UIAppearanceContainer", "preferredStatusBarStyle"]
+- ["PSo21UIAppearanceContainer", "prepareForSegue"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "selectedIndex"]
+- !private ["PSo21UIAppearanceContainer", "selectedRowInComponent"]
+- ["PSo21UIAppearanceContainer", "subjectPicker"]
+- ["PSo21UIAppearanceContainer", "taskDescrip"]
+- ["PSo21UIAppearanceContainer", "taskTitle"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "Assignment"]
+- !private ["PSo18UIContentContainer", "PFUser"]
+- !private ["PSo18UIContentContainer", "String"]
+- !private ["PSo18UIContentContainer", "UIStatusBarStyle"]
+- ["PSo18UIContentContainer", "addAssignment"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "loadedAssignments"]
+- ["PSo18UIContentContainer", "numberOfComponentsInPickerView"]
+- ["PSo18UIContentContainer", "pickerDataSource"]
+- ["PSo18UIContentContainer", "pickerView"]
+- ["PSo18UIContentContainer", "preferredStatusBarStyle"]
+- ["PSo18UIContentContainer", "prepareForSegue"]
+- !private ["PSo18UIContentContainer", "print"]
+- !private ["PSo18UIContentContainer", "selectedIndex"]
+- ["PSo18UIContentContainer", "subjectPicker"]
+- ["PSo18UIContentContainer", "taskDescrip"]
+- ["PSo18UIContentContainer", "taskTitle"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "dataSource"]
+- !private ["PSo17UICoordinateSpace", "delegate"]
+- !private ["PSo17UICoordinateSpace", "selectedRowInComponent"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "dataSource"]
+- !private ["PSo13UIDynamicItem", "delegate"]
+- !private ["PSo13UIDynamicItem", "selectedRowInComponent"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "Assignment"]
+- !private ["PSo18UIFocusEnvironment", "PFUser"]
+- !private ["PSo18UIFocusEnvironment", "String"]
+- !private ["PSo18UIFocusEnvironment", "UIStatusBarStyle"]
+- ["PSo18UIFocusEnvironment", "addAssignment"]
+- !private ["PSo18UIFocusEnvironment", "dataSource"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "loadedAssignments"]
+- ["PSo18UIFocusEnvironment", "numberOfComponentsInPickerView"]
+- ["PSo18UIFocusEnvironment", "pickerDataSource"]
+- ["PSo18UIFocusEnvironment", "pickerView"]
+- ["PSo18UIFocusEnvironment", "preferredStatusBarStyle"]
+- ["PSo18UIFocusEnvironment", "prepareForSegue"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "selectedIndex"]
+- !private ["PSo18UIFocusEnvironment", "selectedRowInComponent"]
+- ["PSo18UIFocusEnvironment", "subjectPicker"]
+- ["PSo18UIFocusEnvironment", "taskDescrip"]
+- ["PSo18UIFocusEnvironment", "taskTitle"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo12UIPickerView", "dataSource"]
+- !private ["CSo12UIPickerView", "delegate"]
+- !private ["CSo12UIPickerView", "selectedRowInComponent"]
+- ["PSo22UIPickerViewDataSource", "Assignment"]
+- !private ["PSo22UIPickerViewDataSource", "PFUser"]
+- !private ["PSo22UIPickerViewDataSource", "String"]
+- !private ["PSo22UIPickerViewDataSource", "UIStatusBarStyle"]
+- !private ["PSo22UIPickerViewDataSource", "loadedAssignments"]
+- ["PSo22UIPickerViewDataSource", "numberOfComponentsInPickerView"]
+- !private ["PSo22UIPickerViewDataSource", "pickerDataSource"]
+- ["PSo22UIPickerViewDataSource", "pickerView"]
+- !private ["PSo22UIPickerViewDataSource", "print"]
+- !private ["PSo22UIPickerViewDataSource", "subjectPicker"]
+- !private ["PSo22UIPickerViewDataSource", "taskDescrip"]
+- !private ["PSo22UIPickerViewDataSource", "taskTitle"]
+- ["PSo22UIPickerViewDataSource", ""]
+- ["PSo20UIPickerViewDelegate", "Assignment"]
+- !private ["PSo20UIPickerViewDelegate", "PFUser"]
+- !private ["PSo20UIPickerViewDelegate", "String"]
+- !private ["PSo20UIPickerViewDelegate", "UIStatusBarStyle"]
+- !private ["PSo20UIPickerViewDelegate", "loadedAssignments"]
+- ["PSo20UIPickerViewDelegate", "numberOfComponentsInPickerView"]
+- !private ["PSo20UIPickerViewDelegate", "pickerDataSource"]
+- ["PSo20UIPickerViewDelegate", "pickerView"]
+- !private ["PSo20UIPickerViewDelegate", "print"]
+- !private ["PSo20UIPickerViewDelegate", "subjectPicker"]
+- !private ["PSo20UIPickerViewDelegate", "taskDescrip"]
+- !private ["PSo20UIPickerViewDelegate", "taskTitle"]
+- ["PSo20UIPickerViewDelegate", ""]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Assignment"]
+- ["CSo11UIResponder", "DesignableTextField"]
+- ["CSo11UIResponder", "DesignableTextView"]
+- ["CSo11UIResponder", "Int"]
+- !private ["CSo11UIResponder", "PFUser"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIPickerView"]
+- ["CSo11UIResponder", "UIStatusBarStyle"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- !private ["CSo11UIResponder", "UITabBarController"]
+- ["CSo11UIResponder", "addAssignment"]
+- !private ["CSo11UIResponder", "dataSource"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "loadedAssignments"]
+- ["CSo11UIResponder", "numberOfComponentsInPickerView"]
+- ["CSo11UIResponder", "pickerDataSource"]
+- ["CSo11UIResponder", "pickerView"]
+- ["CSo11UIResponder", "preferredStatusBarStyle"]
+- ["CSo11UIResponder", "prepareForSegue"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "selectedIndex"]
+- !private ["CSo11UIResponder", "selectedRowInComponent"]
+- ["CSo11UIResponder", "subjectPicker"]
+- ["CSo11UIResponder", "taskDescrip"]
+- ["CSo11UIResponder", "taskTitle"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["CSo12UIScrollView", "text"]
+- ["PSo16UIStateRestoring", "Assignment"]
+- !private ["PSo16UIStateRestoring", "PFUser"]
+- !private ["PSo16UIStateRestoring", "String"]
+- !private ["PSo16UIStateRestoring", "UIStatusBarStyle"]
+- ["PSo16UIStateRestoring", "addAssignment"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "loadedAssignments"]
+- ["PSo16UIStateRestoring", "numberOfComponentsInPickerView"]
+- ["PSo16UIStateRestoring", "pickerDataSource"]
+- ["PSo16UIStateRestoring", "pickerView"]
+- ["PSo16UIStateRestoring", "preferredStatusBarStyle"]
+- ["PSo16UIStateRestoring", "prepareForSegue"]
+- !private ["PSo16UIStateRestoring", "print"]
+- !private ["PSo16UIStateRestoring", "selectedIndex"]
+- ["PSo16UIStateRestoring", "subjectPicker"]
+- ["PSo16UIStateRestoring", "taskDescrip"]
+- ["PSo16UIStateRestoring", "taskTitle"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["OSC16UIStatusBarStyle", "LightContent"]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- !private ["CSo17UIStoryboardSegue", "identifier"]
+- !private ["CSo18UITabBarController", "selectedIndex"]
+- !private ["PSo16UITabBarDelegate", "selectedIndex"]
+- !private ["PSo21UITableViewDataSource", "dataSource"]
+- !private ["PSo21UITableViewDataSource", "delegate"]
+- !private ["PSo21UITableViewDataSource", "selectedRowInComponent"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["CSo10UITextView", "text"]
+- ["PSo18UITraitEnvironment", "Assignment"]
+- !private ["PSo18UITraitEnvironment", "PFUser"]
+- !private ["PSo18UITraitEnvironment", "String"]
+- !private ["PSo18UITraitEnvironment", "UIStatusBarStyle"]
+- ["PSo18UITraitEnvironment", "addAssignment"]
+- !private ["PSo18UITraitEnvironment", "dataSource"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "loadedAssignments"]
+- ["PSo18UITraitEnvironment", "numberOfComponentsInPickerView"]
+- ["PSo18UITraitEnvironment", "pickerDataSource"]
+- ["PSo18UITraitEnvironment", "pickerView"]
+- ["PSo18UITraitEnvironment", "preferredStatusBarStyle"]
+- ["PSo18UITraitEnvironment", "prepareForSegue"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "selectedIndex"]
+- !private ["PSo18UITraitEnvironment", "selectedRowInComponent"]
+- ["PSo18UITraitEnvironment", "subjectPicker"]
+- ["PSo18UITraitEnvironment", "taskDescrip"]
+- ["PSo18UITraitEnvironment", "taskTitle"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "dataSource"]
+- !private ["CSo6UIView", "delegate"]
+- !private ["CSo6UIView", "selectedRowInComponent"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Assignment"]
+- ["CSo16UIViewController", "DesignableTextField"]
+- ["CSo16UIViewController", "DesignableTextView"]
+- ["CSo16UIViewController", "Int"]
+- !private ["CSo16UIViewController", "PFUser"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIPickerView"]
+- ["CSo16UIViewController", "UIStatusBarStyle"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- !private ["CSo16UIViewController", "UITabBarController"]
+- ["CSo16UIViewController", "addAssignment"]
+- !private ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "loadedAssignments"]
+- ["CSo16UIViewController", "numberOfComponentsInPickerView"]
+- ["CSo16UIViewController", "pickerDataSource"]
+- ["CSo16UIViewController", "pickerView"]
+- ["CSo16UIViewController", "preferredStatusBarStyle"]
+- ["CSo16UIViewController", "prepareForSegue"]
+- !private ["CSo16UIViewController", "print"]
+- !private ["CSo16UIViewController", "selectedIndex"]
+- ["CSo16UIViewController", "subjectPicker"]
+- ["CSo16UIViewController", "taskDescrip"]
+- ["CSo16UIViewController", "taskTitle"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- ["PSs10_ArrayType", "Element"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "_Element"]
+- !private ["PSs10_ArrayType", "append"]
+- !private ["PSs10_ArrayType", "count"]
+- ["PSs10_ArrayType", "init"]
+- !private ["PSs10_ArrayType", "subscript"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "_Element"]
+- !private ["PSs24_DestructorSafeContainer", "append"]
+- !private ["PSs24_DestructorSafeContainer", "count"]
+- ["PSs24_DestructorSafeContainer", "init"]
+- !private ["PSs24_DestructorSafeContainer", "subscript"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "append"]
+- !private ["PSs21_ObjectiveCBridgeable", "count"]
+- ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "append"]
+- !private ["PSs12_Reflectable", "count"]
+- !private ["PSs12_Reflectable", "dataSource"]
+- !private ["PSs12_Reflectable", "delegate"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "selectedRowInComponent"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs12_Reflectable", "text"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- ["C8Ingenium15addAssignmentVC", "AnyObject"]
+- ["C8Ingenium15addAssignmentVC", "Assignment"]
+- ["C8Ingenium15addAssignmentVC", "DesignableTextField"]
+- ["C8Ingenium15addAssignmentVC", "DesignableTextView"]
+- ["C8Ingenium15addAssignmentVC", "Int"]
+- !private ["C8Ingenium15addAssignmentVC", "PFUser"]
+- ["C8Ingenium15addAssignmentVC", "String"]
+- ["C8Ingenium15addAssignmentVC", "UIPickerView"]
+- ["C8Ingenium15addAssignmentVC", "UIStatusBarStyle"]
+- ["C8Ingenium15addAssignmentVC", "UIStoryboardSegue"]
+- !private ["C8Ingenium15addAssignmentVC", "UITabBarController"]
+- ["C8Ingenium15addAssignmentVC", "addAssignment"]
+- ["C8Ingenium15addAssignmentVC", "deinit"]
+- ["C8Ingenium15addAssignmentVC", "didReceiveMemoryWarning"]
+- ["C8Ingenium15addAssignmentVC", "init"]
+- ["C8Ingenium15addAssignmentVC", "loadedAssignments"]
+- ["C8Ingenium15addAssignmentVC", "numberOfComponentsInPickerView"]
+- ["C8Ingenium15addAssignmentVC", "pickerDataSource"]
+- ["C8Ingenium15addAssignmentVC", "pickerView"]
+- ["C8Ingenium15addAssignmentVC", "preferredStatusBarStyle"]
+- ["C8Ingenium15addAssignmentVC", "prepareForSegue"]
+- !private ["C8Ingenium15addAssignmentVC", "print"]
+- ["C8Ingenium15addAssignmentVC", "subjectPicker"]
+- ["C8Ingenium15addAssignmentVC", "taskDescrip"]
+- ["C8Ingenium15addAssignmentVC", "taskTitle"]
+- ["C8Ingenium15addAssignmentVC", "viewDidLoad"]
+depends-nominal:
+- "PSs9AnyObject"
+- "Sa"
+- "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "C8Ingenium10Assignment"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "C8Ingenium19DesignableTextField"
+- !private "C8Ingenium18DesignableTextView"
+- "PSs9Equatable"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- "PSs21MutableCollectionType"
+- "PSs16MutableIndexable"
+- "PSs16MutableSliceable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "CSo8PFObject"
+- !private "PSo13PFSubclassing"
+- !private "CSo6PFUser"
+- !private "PSs21RandomAccessIndexType"
+- "PSs30RangeReplaceableCollectionType"
+- !private "PSs16RawRepresentable"
+- "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "C8Ingenium15SpringTextField"
+- !private "C8Ingenium14SpringTextView"
+- !private "P8Ingenium10Springable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- !private "CSo12UIPickerView"
+- "PSo22UIPickerViewDataSource"
+- "PSo20UIPickerViewDelegate"
+- "CSo11UIResponder"
+- !private "CSo12UIScrollView"
+- "PSo16UIStateRestoring"
+- !private "OSC16UIStatusBarStyle"
+- !private "CSo17UIStoryboardSegue"
+- !private "CSo18UITabBarController"
+- !private "PSo16UITabBarDelegate"
+- !private "PSo21UITableViewDataSource"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- !private "CSo10UITextView"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+- "C8Ingenium15addAssignmentVC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreLocation.swiftmodule"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFURL.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFTask.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFDefines.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/Bolts.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFPurchase.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFProduct.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFPush.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFInstallation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFSession.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFRole.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFRelation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFQuery.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFFile.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFConfig.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFCloud.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFObject.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFUser.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFACL.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/Parse.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreAudio.swiftmodule"
+interface-hash: "b69dad59a08590aceca47384dc06917e"

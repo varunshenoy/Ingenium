@@ -1,0 +1,222 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Tutor"
+provides-nominal:
+- "C8Ingenium5Tutor"
+provides-member:
+- ["C8Ingenium5Tutor", ""]
+provides-dynamic-lookup:
+- "phone"
+- "rating"
+- "email"
+- "numberOfRatings"
+- "descrip"
+- "username"
+- "name"
+- "price"
+- "coords"
+- "subject"
+depends-top-level:
+- "Double"
+- "String"
+- "StringLiteralType"
+- "NSObject"
+- "Tutor"
+- "PFGeoPoint"
+depends-member:
+- ["PSs9AnyObject", "coords"]
+- ["PSs9AnyObject", "descrip"]
+- ["PSs9AnyObject", "email"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "name"]
+- ["PSs9AnyObject", "numberOfRatings"]
+- ["PSs9AnyObject", "phone"]
+- ["PSs9AnyObject", "price"]
+- ["PSs9AnyObject", "rating"]
+- ["PSs9AnyObject", "subject"]
+- ["PSs9AnyObject", "username"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "coords"]
+- ["PSs11CVarArgType", "descrip"]
+- ["PSs11CVarArgType", "email"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "name"]
+- ["PSs11CVarArgType", "numberOfRatings"]
+- ["PSs11CVarArgType", "phone"]
+- ["PSs11CVarArgType", "price"]
+- ["PSs11CVarArgType", "rating"]
+- ["PSs11CVarArgType", "subject"]
+- ["PSs11CVarArgType", "username"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "coords"]
+- ["PSs23CustomStringConvertible", "descrip"]
+- ["PSs23CustomStringConvertible", "email"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "name"]
+- ["PSs23CustomStringConvertible", "numberOfRatings"]
+- ["PSs23CustomStringConvertible", "phone"]
+- ["PSs23CustomStringConvertible", "price"]
+- ["PSs23CustomStringConvertible", "rating"]
+- ["PSs23CustomStringConvertible", "subject"]
+- ["PSs23CustomStringConvertible", "username"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "coords"]
+- ["PSs9Equatable", "descrip"]
+- ["PSs9Equatable", "email"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "name"]
+- ["PSs9Equatable", "numberOfRatings"]
+- ["PSs9Equatable", "phone"]
+- ["PSs9Equatable", "price"]
+- ["PSs9Equatable", "rating"]
+- ["PSs9Equatable", "subject"]
+- ["PSs9Equatable", "username"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "coords"]
+- ["PSs8Hashable", "descrip"]
+- ["PSs8Hashable", "email"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "name"]
+- ["PSs8Hashable", "numberOfRatings"]
+- ["PSs8Hashable", "phone"]
+- ["PSs8Hashable", "price"]
+- ["PSs8Hashable", "rating"]
+- ["PSs8Hashable", "subject"]
+- ["PSs8Hashable", "username"]
+- ["PSs8Hashable", ""]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "PFGeoPoint"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "coords"]
+- ["CSo8NSObject", "descrip"]
+- ["CSo8NSObject", "email"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "numberOfRatings"]
+- ["CSo8NSObject", "phone"]
+- ["CSo8NSObject", "price"]
+- ["CSo8NSObject", "rating"]
+- ["CSo8NSObject", "subject"]
+- ["CSo8NSObject", "username"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "coords"]
+- ["PSo16NSObjectProtocol", "descrip"]
+- ["PSo16NSObjectProtocol", "email"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "numberOfRatings"]
+- ["PSo16NSObjectProtocol", "phone"]
+- ["PSo16NSObjectProtocol", "price"]
+- ["PSo16NSObjectProtocol", "rating"]
+- ["PSo16NSObjectProtocol", "subject"]
+- ["PSo16NSObjectProtocol", "username"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C8Ingenium5Tutor", "Double"]
+- ["C8Ingenium5Tutor", "PFGeoPoint"]
+- ["C8Ingenium5Tutor", "String"]
+- ["C8Ingenium5Tutor", "coords"]
+- ["C8Ingenium5Tutor", "deinit"]
+- ["C8Ingenium5Tutor", "descrip"]
+- ["C8Ingenium5Tutor", "email"]
+- ["C8Ingenium5Tutor", "init"]
+- ["C8Ingenium5Tutor", "name"]
+- ["C8Ingenium5Tutor", "numberOfRatings"]
+- ["C8Ingenium5Tutor", "phone"]
+- ["C8Ingenium5Tutor", "price"]
+- ["C8Ingenium5Tutor", "rating"]
+- ["C8Ingenium5Tutor", "subject"]
+- ["C8Ingenium5Tutor", "username"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C8Ingenium5Tutor"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreLocation.swiftmodule"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFURL.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFTask.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFDefines.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/Bolts.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFPurchase.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFProduct.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFPush.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFInstallation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFSession.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFRole.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFRelation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFQuery.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFFile.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFConfig.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFCloud.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFObject.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFUser.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFACL.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/Parse.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreAudio.swiftmodule"
+interface-hash: "9f6fe6de5f46996868287f6f29adf1b6"

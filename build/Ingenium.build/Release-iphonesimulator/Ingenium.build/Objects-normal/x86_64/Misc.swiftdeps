@@ -1,0 +1,943 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "htmlToAttributedString"
+- "degreesToRadians"
+- "delay"
+- "imageFromURL"
+- "rgbaToUIColor"
+- "UIColorFromRGB"
+- "stringFromDate"
+- "dateFromString"
+- "randomStringWithLength"
+- "timeAgoSinceDate"
+provides-nominal:
+provides-member:
+- ["SS", ""]
+- ["CSo7UIColor", ""]
+- ["SS", "length"]
+- ["SS", "toURL"]
+- ["CSo7UIColor", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- "delay"
+- "stringFromDate"
+- !private "NSScanner"
+- !private "NSData"
+- !private "print"
+- !private "<"
+- "NSAttributedString"
+- !private "NSEC_PER_SEC"
+- !private "/"
+- !private ">>"
+- "CGFloat"
+- !private "Dictionary"
+- "degreesToRadians"
+- "UIImage"
+- !private "NSCalendarUnit"
+- !private "DISPATCH_TIME_NOW"
+- !private "Int64"
+- !private "NSDocumentTypeDocumentAttribute"
+- !private ">="
+- "timeAgoSinceDate"
+- !private "M_PI"
+- !private "UInt32"
+- !private "NSHTMLTextDocumentType"
+- "randomStringWithLength"
+- !private "CUnsignedLongLong"
+- "UIColor"
+- !private "++"
+- "Double"
+- !private "arc4random_uniform"
+- "Int"
+- !private "=="
+- "NSURL"
+- "UInt"
+- !private "*"
+- !private "BooleanLiteralType"
+- "rgbaToUIColor"
+- "UIColorFromRGB"
+- "String"
+- "htmlToAttributedString"
+- "imageFromURL"
+- "NSDate"
+- !private "~="
+- !private "NSDateComponents"
+- !private "UnicodeScalarType"
+- !private "NSDateFormatter"
+- !private "&"
+- !private "StringLiteralType"
+- !private "NSUTF8StringEncoding"
+- !private "dispatch_get_main_queue"
+- !private "dispatch_time"
+- !private "NSMutableString"
+- !private "Array"
+- !private "dispatch_after"
+- !private "NSCalendar"
+- "Bool"
+- "dateFromString"
+- "NSString"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "CGFloat"]
+- !private ["PSs9AnyObject", "NSScanner"]
+- !private ["PSs9AnyObject", "appendFormat"]
+- !private ["PSs9AnyObject", "characterAtIndex"]
+- !private ["PSs9AnyObject", "characters"]
+- !private ["PSs9AnyObject", "components"]
+- !private ["PSs9AnyObject", "currentCalendar"]
+- !private ["PSs9AnyObject", "dataUsingEncoding"]
+- !private ["PSs9AnyObject", "dateFormat"]
+- !private ["PSs9AnyObject", "dateFromString"]
+- !private ["PSs9AnyObject", "day"]
+- !private ["PSs9AnyObject", "earlierDate"]
+- !private ["PSs9AnyObject", "hasPrefix"]
+- !private ["PSs9AnyObject", "hour"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "length"]
+- !private ["PSs9AnyObject", "minute"]
+- !private ["PSs9AnyObject", "month"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "scanHexLongLong"]
+- !private ["PSs9AnyObject", "second"]
+- !private ["PSs9AnyObject", "startIndex"]
+- !private ["PSs9AnyObject", "stringFromDate"]
+- !private ["PSs9AnyObject", "substringFromIndex"]
+- !private ["PSs9AnyObject", "weekOfYear"]
+- !private ["PSs9AnyObject", "year"]
+- !private ["PSs23ArrayLiteralConvertible", "Day"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Hour"]
+- !private ["PSs23ArrayLiteralConvertible", "Minute"]
+- !private ["PSs23ArrayLiteralConvertible", "Month"]
+- !private ["PSs23ArrayLiteralConvertible", "Second"]
+- !private ["PSs23ArrayLiteralConvertible", "WeekOfYear"]
+- !private ["PSs23ArrayLiteralConvertible", "Year"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs22BidirectionalIndexType", "advancedBy"]
+- !private ["PSs22BidirectionalIndexType", "init"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["PSs11CVarArgType", "CGFloat"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "NSScanner"]
+- !private ["PSs11CVarArgType", "appendFormat"]
+- !private ["PSs11CVarArgType", "characterAtIndex"]
+- !private ["PSs11CVarArgType", "characters"]
+- !private ["PSs11CVarArgType", "components"]
+- !private ["PSs11CVarArgType", "currentCalendar"]
+- !private ["PSs11CVarArgType", "dataUsingEncoding"]
+- !private ["PSs11CVarArgType", "dateFormat"]
+- !private ["PSs11CVarArgType", "dateFromString"]
+- !private ["PSs11CVarArgType", "day"]
+- !private ["PSs11CVarArgType", "earlierDate"]
+- !private ["PSs11CVarArgType", "hasPrefix"]
+- !private ["PSs11CVarArgType", "hour"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "length"]
+- !private ["PSs11CVarArgType", "minute"]
+- !private ["PSs11CVarArgType", "month"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "scanHexLongLong"]
+- !private ["PSs11CVarArgType", "second"]
+- !private ["PSs11CVarArgType", "startIndex"]
+- !private ["PSs11CVarArgType", "stringFromDate"]
+- !private ["PSs11CVarArgType", "substringFromIndex"]
+- !private ["PSs11CVarArgType", "weekOfYear"]
+- !private ["PSs11CVarArgType", "year"]
+- !private ["VSs9Character", "deinit"]
+- !private ["VSS13CharacterView", "Generator"]
+- !private ["VSS13CharacterView", "Index"]
+- !private ["VSS13CharacterView", "SubSequence"]
+- !private ["VSS13CharacterView", "count"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs14CollectionType", "count"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "NSURL"]
+- !private ["PSs10Comparable", "advancedBy"]
+- !private ["PSs10Comparable", "characters"]
+- !private ["PSs10Comparable", "dataUsingEncoding"]
+- !private ["PSs10Comparable", "hasPrefix"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs10Comparable", "startIndex"]
+- !private ["PSs10Comparable", "substringFromIndex"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- !private ["PSs28CustomDebugStringConvertible", "NSURL"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "characters"]
+- !private ["PSs28CustomDebugStringConvertible", "dataUsingEncoding"]
+- !private ["PSs28CustomDebugStringConvertible", "hasPrefix"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "startIndex"]
+- !private ["PSs28CustomDebugStringConvertible", "substringFromIndex"]
+- !private ["PSs23CustomStringConvertible", "CGFloat"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "NSScanner"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "appendFormat"]
+- !private ["PSs23CustomStringConvertible", "characterAtIndex"]
+- !private ["PSs23CustomStringConvertible", "characters"]
+- !private ["PSs23CustomStringConvertible", "components"]
+- !private ["PSs23CustomStringConvertible", "currentCalendar"]
+- !private ["PSs23CustomStringConvertible", "dataUsingEncoding"]
+- !private ["PSs23CustomStringConvertible", "dateFormat"]
+- !private ["PSs23CustomStringConvertible", "dateFromString"]
+- !private ["PSs23CustomStringConvertible", "day"]
+- !private ["PSs23CustomStringConvertible", "earlierDate"]
+- !private ["PSs23CustomStringConvertible", "hasPrefix"]
+- !private ["PSs23CustomStringConvertible", "hour"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "length"]
+- !private ["PSs23CustomStringConvertible", "minute"]
+- !private ["PSs23CustomStringConvertible", "month"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "scanHexLongLong"]
+- !private ["PSs23CustomStringConvertible", "second"]
+- !private ["PSs23CustomStringConvertible", "startIndex"]
+- !private ["PSs23CustomStringConvertible", "stringFromDate"]
+- !private ["PSs23CustomStringConvertible", "substringFromIndex"]
+- !private ["PSs23CustomStringConvertible", "weekOfYear"]
+- !private ["PSs23CustomStringConvertible", "year"]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["PSs9Equatable", "CGFloat"]
+- !private ["PSs9Equatable", "Day"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "Element"]
+- !private ["PSs9Equatable", "Hour"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "Minute"]
+- !private ["PSs9Equatable", "Month"]
+- !private ["PSs9Equatable", "NSScanner"]
+- !private ["PSs9Equatable", "NSURL"]
+- !private ["PSs9Equatable", "Second"]
+- !private ["PSs9Equatable", "WeekOfYear"]
+- !private ["PSs9Equatable", "Year"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "advancedBy"]
+- !private ["PSs9Equatable", "appendFormat"]
+- !private ["PSs9Equatable", "characterAtIndex"]
+- !private ["PSs9Equatable", "characters"]
+- !private ["PSs9Equatable", "components"]
+- !private ["PSs9Equatable", "currentCalendar"]
+- !private ["PSs9Equatable", "dataUsingEncoding"]
+- !private ["PSs9Equatable", "dateFormat"]
+- !private ["PSs9Equatable", "dateFromString"]
+- !private ["PSs9Equatable", "day"]
+- !private ["PSs9Equatable", "earlierDate"]
+- !private ["PSs9Equatable", "hasPrefix"]
+- !private ["PSs9Equatable", "hour"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "length"]
+- !private ["PSs9Equatable", "minute"]
+- !private ["PSs9Equatable", "month"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "scanHexLongLong"]
+- !private ["PSs9Equatable", "second"]
+- !private ["PSs9Equatable", "startIndex"]
+- !private ["PSs9Equatable", "stringFromDate"]
+- !private ["PSs9Equatable", "substringFromIndex"]
+- !private ["PSs9Equatable", "weekOfYear"]
+- !private ["PSs9Equatable", "year"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "NSURL"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "appendFormat"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "characterAtIndex"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "characters"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "hasPrefix"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "length"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "startIndex"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "substringFromIndex"]
+- !private ["Sf", "deinit"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "advancedBy"]
+- !private ["PSs16ForwardIndexType", "init"]
+- !private ["PSs8Hashable", "CGFloat"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "NSScanner"]
+- !private ["PSs8Hashable", "NSURL"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "appendFormat"]
+- !private ["PSs8Hashable", "characterAtIndex"]
+- !private ["PSs8Hashable", "characters"]
+- !private ["PSs8Hashable", "components"]
+- !private ["PSs8Hashable", "currentCalendar"]
+- !private ["PSs8Hashable", "dataUsingEncoding"]
+- !private ["PSs8Hashable", "dateFormat"]
+- !private ["PSs8Hashable", "dateFromString"]
+- !private ["PSs8Hashable", "day"]
+- !private ["PSs8Hashable", "earlierDate"]
+- !private ["PSs8Hashable", "hasPrefix"]
+- !private ["PSs8Hashable", "hour"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "length"]
+- !private ["PSs8Hashable", "minute"]
+- !private ["PSs8Hashable", "month"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "scanHexLongLong"]
+- !private ["PSs8Hashable", "second"]
+- !private ["PSs8Hashable", "startIndex"]
+- !private ["PSs8Hashable", "stringFromDate"]
+- !private ["PSs8Hashable", "substringFromIndex"]
+- !private ["PSs8Hashable", "weekOfYear"]
+- !private ["PSs8Hashable", "year"]
+- !private ["SQ", "deinit"]
+- !private ["VVSS13CharacterView5Index", "Distance"]
+- !private ["VVSS13CharacterView5Index", "advancedBy"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["PSs9Indexable", "count"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs5Int64", "init"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "init"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "NSURL"]
+- !private ["PSs14MirrorPathType", "characters"]
+- !private ["PSs14MirrorPathType", "dataUsingEncoding"]
+- !private ["PSs14MirrorPathType", "hasPrefix"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs14MirrorPathType", "startIndex"]
+- !private ["PSs14MirrorPathType", "substringFromIndex"]
+- !private ["CSo18NSAttributedString", "init"]
+- !private ["CSo10NSCalendar", "components"]
+- !private ["CSo10NSCalendar", "currentCalendar"]
+- !private ["VSC17NSCalendarOptions", "Element"]
+- !private ["VSC14NSCalendarUnit", "Day"]
+- !private ["VSC14NSCalendarUnit", "Element"]
+- !private ["VSC14NSCalendarUnit", "Hour"]
+- !private ["VSC14NSCalendarUnit", "Minute"]
+- !private ["VSC14NSCalendarUnit", "Month"]
+- !private ["VSC14NSCalendarUnit", "Second"]
+- !private ["VSC14NSCalendarUnit", "WeekOfYear"]
+- !private ["VSC14NSCalendarUnit", "Year"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- !private ["PSo8NSCoding", "NSScanner"]
+- !private ["PSo8NSCoding", "appendFormat"]
+- !private ["PSo8NSCoding", "characterAtIndex"]
+- !private ["PSo8NSCoding", "characters"]
+- !private ["PSo8NSCoding", "components"]
+- !private ["PSo8NSCoding", "currentCalendar"]
+- !private ["PSo8NSCoding", "dataUsingEncoding"]
+- !private ["PSo8NSCoding", "dateFormat"]
+- !private ["PSo8NSCoding", "dateFromString"]
+- !private ["PSo8NSCoding", "day"]
+- !private ["PSo8NSCoding", "earlierDate"]
+- !private ["PSo8NSCoding", "hasPrefix"]
+- !private ["PSo8NSCoding", "hour"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "length"]
+- !private ["PSo8NSCoding", "minute"]
+- !private ["PSo8NSCoding", "month"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "second"]
+- !private ["PSo8NSCoding", "startIndex"]
+- !private ["PSo8NSCoding", "stringFromDate"]
+- !private ["PSo8NSCoding", "substringFromIndex"]
+- !private ["PSo8NSCoding", "weekOfYear"]
+- !private ["PSo8NSCoding", "year"]
+- !private ["PSo9NSCopying", "CGFloat"]
+- !private ["PSo9NSCopying", "NSScanner"]
+- !private ["PSo9NSCopying", "appendFormat"]
+- !private ["PSo9NSCopying", "characterAtIndex"]
+- !private ["PSo9NSCopying", "characters"]
+- !private ["PSo9NSCopying", "components"]
+- !private ["PSo9NSCopying", "currentCalendar"]
+- !private ["PSo9NSCopying", "dataUsingEncoding"]
+- !private ["PSo9NSCopying", "dateFormat"]
+- !private ["PSo9NSCopying", "dateFromString"]
+- !private ["PSo9NSCopying", "day"]
+- !private ["PSo9NSCopying", "earlierDate"]
+- !private ["PSo9NSCopying", "hasPrefix"]
+- !private ["PSo9NSCopying", "hour"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "length"]
+- !private ["PSo9NSCopying", "minute"]
+- !private ["PSo9NSCopying", "month"]
+- !private ["PSo9NSCopying", "print"]
+- !private ["PSo9NSCopying", "scanHexLongLong"]
+- !private ["PSo9NSCopying", "second"]
+- !private ["PSo9NSCopying", "startIndex"]
+- !private ["PSo9NSCopying", "stringFromDate"]
+- !private ["PSo9NSCopying", "substringFromIndex"]
+- !private ["PSo9NSCopying", "weekOfYear"]
+- !private ["PSo9NSCopying", "year"]
+- !private ["CSo6NSData", "init"]
+- !private ["CSo6NSDate", "earlierDate"]
+- !private ["CSo6NSDate", "init"]
+- !private ["CSo16NSDateComponents", "day"]
+- !private ["CSo16NSDateComponents", "hour"]
+- !private ["CSo16NSDateComponents", "minute"]
+- !private ["CSo16NSDateComponents", "month"]
+- !private ["CSo16NSDateComponents", "second"]
+- !private ["CSo16NSDateComponents", "weekOfYear"]
+- !private ["CSo16NSDateComponents", "year"]
+- !private ["CSo15NSDateFormatter", "dateFormat"]
+- !private ["CSo15NSDateFormatter", "dateFromString"]
+- !private ["CSo15NSDateFormatter", "init"]
+- !private ["CSo15NSDateFormatter", "stringFromDate"]
+- !private ["CSo11NSFormatter", "dateFormat"]
+- !private ["CSo11NSFormatter", "dateFromString"]
+- !private ["CSo11NSFormatter", "init"]
+- !private ["CSo11NSFormatter", "stringFromDate"]
+- !private ["PSo16NSMutableCopying", "appendFormat"]
+- !private ["PSo16NSMutableCopying", "characterAtIndex"]
+- !private ["PSo16NSMutableCopying", "characters"]
+- !private ["PSo16NSMutableCopying", "dataUsingEncoding"]
+- !private ["PSo16NSMutableCopying", "hasPrefix"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "length"]
+- !private ["PSo16NSMutableCopying", "startIndex"]
+- !private ["PSo16NSMutableCopying", "substringFromIndex"]
+- !private ["CSo15NSMutableString", "appendFormat"]
+- !private ["CSo15NSMutableString", "init"]
+- !private ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CUnsignedLongLong"]
+- !private ["CSo8NSObject", "NSScanner"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "appendFormat"]
+- !private ["CSo8NSObject", "characterAtIndex"]
+- !private ["CSo8NSObject", "characters"]
+- !private ["CSo8NSObject", "components"]
+- !private ["CSo8NSObject", "currentCalendar"]
+- !private ["CSo8NSObject", "dataUsingEncoding"]
+- !private ["CSo8NSObject", "dateFormat"]
+- !private ["CSo8NSObject", "dateFromString"]
+- !private ["CSo8NSObject", "day"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "earlierDate"]
+- !private ["CSo8NSObject", "hasPrefix"]
+- !private ["CSo8NSObject", "hour"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "length"]
+- !private ["CSo8NSObject", "minute"]
+- !private ["CSo8NSObject", "month"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "scanHexLongLong"]
+- !private ["CSo8NSObject", "second"]
+- !private ["CSo8NSObject", "startIndex"]
+- !private ["CSo8NSObject", "stringFromDate"]
+- !private ["CSo8NSObject", "substringFromIndex"]
+- !private ["CSo8NSObject", "weekOfYear"]
+- !private ["CSo8NSObject", "year"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "NSScanner"]
+- !private ["PSo16NSObjectProtocol", "appendFormat"]
+- !private ["PSo16NSObjectProtocol", "characterAtIndex"]
+- !private ["PSo16NSObjectProtocol", "characters"]
+- !private ["PSo16NSObjectProtocol", "components"]
+- !private ["PSo16NSObjectProtocol", "currentCalendar"]
+- !private ["PSo16NSObjectProtocol", "dataUsingEncoding"]
+- !private ["PSo16NSObjectProtocol", "dateFormat"]
+- !private ["PSo16NSObjectProtocol", "dateFromString"]
+- !private ["PSo16NSObjectProtocol", "day"]
+- !private ["PSo16NSObjectProtocol", "earlierDate"]
+- !private ["PSo16NSObjectProtocol", "hasPrefix"]
+- !private ["PSo16NSObjectProtocol", "hour"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "length"]
+- !private ["PSo16NSObjectProtocol", "minute"]
+- !private ["PSo16NSObjectProtocol", "month"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "scanHexLongLong"]
+- !private ["PSo16NSObjectProtocol", "second"]
+- !private ["PSo16NSObjectProtocol", "startIndex"]
+- !private ["PSo16NSObjectProtocol", "stringFromDate"]
+- !private ["PSo16NSObjectProtocol", "substringFromIndex"]
+- !private ["PSo16NSObjectProtocol", "weekOfYear"]
+- !private ["PSo16NSObjectProtocol", "year"]
+- !private ["CSo9NSScanner", "init"]
+- !private ["CSo9NSScanner", "scanHexLongLong"]
+- !private ["PSo14NSSecureCoding", "CGFloat"]
+- !private ["PSo14NSSecureCoding", "NSScanner"]
+- !private ["PSo14NSSecureCoding", "appendFormat"]
+- !private ["PSo14NSSecureCoding", "characterAtIndex"]
+- !private ["PSo14NSSecureCoding", "characters"]
+- !private ["PSo14NSSecureCoding", "components"]
+- !private ["PSo14NSSecureCoding", "currentCalendar"]
+- !private ["PSo14NSSecureCoding", "dataUsingEncoding"]
+- !private ["PSo14NSSecureCoding", "day"]
+- !private ["PSo14NSSecureCoding", "earlierDate"]
+- !private ["PSo14NSSecureCoding", "hasPrefix"]
+- !private ["PSo14NSSecureCoding", "hour"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "length"]
+- !private ["PSo14NSSecureCoding", "minute"]
+- !private ["PSo14NSSecureCoding", "month"]
+- !private ["PSo14NSSecureCoding", "print"]
+- !private ["PSo14NSSecureCoding", "second"]
+- !private ["PSo14NSSecureCoding", "startIndex"]
+- !private ["PSo14NSSecureCoding", "substringFromIndex"]
+- !private ["PSo14NSSecureCoding", "weekOfYear"]
+- !private ["PSo14NSSecureCoding", "year"]
+- !private ["CSo8NSString", "appendFormat"]
+- !private ["CSo8NSString", "characterAtIndex"]
+- !private ["CSo8NSString", "characters"]
+- !private ["CSo8NSString", "dataUsingEncoding"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "hasPrefix"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "length"]
+- !private ["CSo8NSString", "startIndex"]
+- !private ["CSo8NSString", "substringFromIndex"]
+- !private ["CSo5NSURL", "init"]
+- !private ["CSo7NSValue", "deinit"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- !private ["PSs13OptionSetType", "Day"]
+- !private ["PSs13OptionSetType", "Element"]
+- !private ["PSs13OptionSetType", "Hour"]
+- !private ["PSs13OptionSetType", "Minute"]
+- !private ["PSs13OptionSetType", "Month"]
+- !private ["PSs13OptionSetType", "Second"]
+- !private ["PSs13OptionSetType", "WeekOfYear"]
+- !private ["PSs13OptionSetType", "Year"]
+- ["Sq", "Some"]
+- !private ["PSs16OutputStreamType", "NSURL"]
+- !private ["PSs16OutputStreamType", "characters"]
+- !private ["PSs16OutputStreamType", "dataUsingEncoding"]
+- !private ["PSs16OutputStreamType", "hasPrefix"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs16OutputStreamType", "startIndex"]
+- !private ["PSs16OutputStreamType", "substringFromIndex"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs21RandomAccessIndexType", "init"]
+- !private ["VSs5Range", "deinit"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "count"]
+- !private ["PSs16RawRepresentable", "Day"]
+- !private ["PSs16RawRepresentable", "Element"]
+- !private ["PSs16RawRepresentable", "Hour"]
+- !private ["PSs16RawRepresentable", "Minute"]
+- !private ["PSs16RawRepresentable", "Month"]
+- !private ["PSs16RawRepresentable", "Second"]
+- !private ["PSs16RawRepresentable", "WeekOfYear"]
+- !private ["PSs16RawRepresentable", "Year"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["PSs12SequenceType", "count"]
+- !private ["PSs14SetAlgebraType", "Day"]
+- !private ["PSs14SetAlgebraType", "Element"]
+- !private ["PSs14SetAlgebraType", "Hour"]
+- !private ["PSs14SetAlgebraType", "Minute"]
+- !private ["PSs14SetAlgebraType", "Month"]
+- !private ["PSs14SetAlgebraType", "Second"]
+- !private ["PSs14SetAlgebraType", "WeekOfYear"]
+- !private ["PSs14SetAlgebraType", "Year"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs17SignedIntegerType", "init"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs10Streamable", "NSURL"]
+- !private ["PSs10Streamable", "characters"]
+- !private ["PSs10Streamable", "dataUsingEncoding"]
+- !private ["PSs10Streamable", "hasPrefix"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Streamable", "startIndex"]
+- !private ["PSs10Streamable", "substringFromIndex"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "init"]
+- ["SS", "Int"]
+- ["SS", "NSURL"]
+- !private ["SS", "characters"]
+- !private ["SS", "dataUsingEncoding"]
+- !private ["SS", "deinit"]
+- !private ["SS", "hasPrefix"]
+- !private ["SS", "init"]
+- ["SS", "length"]
+- !private ["SS", "startIndex"]
+- !private ["SS", "substringFromIndex"]
+- ["SS", "toURL"]
+- !private ["PSs30StringInterpolationConvertible", "NSURL"]
+- !private ["PSs30StringInterpolationConvertible", "characters"]
+- !private ["PSs30StringInterpolationConvertible", "dataUsingEncoding"]
+- !private ["PSs30StringInterpolationConvertible", "hasPrefix"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs30StringInterpolationConvertible", "startIndex"]
+- !private ["PSs30StringInterpolationConvertible", "substringFromIndex"]
+- !private ["PSs24StringLiteralConvertible", "NSURL"]
+- !private ["PSs24StringLiteralConvertible", "appendFormat"]
+- !private ["PSs24StringLiteralConvertible", "characterAtIndex"]
+- !private ["PSs24StringLiteralConvertible", "characters"]
+- !private ["PSs24StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs24StringLiteralConvertible", "hasPrefix"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "length"]
+- !private ["PSs24StringLiteralConvertible", "startIndex"]
+- !private ["PSs24StringLiteralConvertible", "substringFromIndex"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["CSo7UIColor", "CGFloat"]
+- !private ["CSo7UIColor", "CUnsignedLongLong"]
+- !private ["CSo7UIColor", "NSScanner"]
+- ["CSo7UIColor", "String"]
+- ["CSo7UIColor", "init"]
+- !private ["CSo7UIColor", "print"]
+- !private ["CSo7UIImage", "init"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt32", "init"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "NSURL"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "appendFormat"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "characterAtIndex"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "characters"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "hasPrefix"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "length"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "startIndex"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "substringFromIndex"]
+- !private ["PSs19UnsignedIntegerType", "init"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "NSURL"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "characters"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "hasPrefix"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "startIndex"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "substringFromIndex"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "NSURL"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "characters"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "hasPrefix"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "startIndex"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "substringFromIndex"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "NSURL"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "characters"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "hasPrefix"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "startIndex"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "substringFromIndex"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "NSURL"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "characters"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "hasPrefix"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "startIndex"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "substringFromIndex"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs16_CocoaStringType", "appendFormat"]
+- !private ["PSs16_CocoaStringType", "characterAtIndex"]
+- !private ["PSs16_CocoaStringType", "characters"]
+- !private ["PSs16_CocoaStringType", "dataUsingEncoding"]
+- !private ["PSs16_CocoaStringType", "hasPrefix"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs16_CocoaStringType", "length"]
+- !private ["PSs16_CocoaStringType", "startIndex"]
+- !private ["PSs16_CocoaStringType", "substringFromIndex"]
+- !private ["PSs24_ColorLiteralConvertible", "CGFloat"]
+- !private ["PSs24_ColorLiteralConvertible", "NSScanner"]
+- !private ["PSs24_ColorLiteralConvertible", "init"]
+- !private ["PSs24_ColorLiteralConvertible", "print"]
+- !private ["PSs28_DisallowMixedSignArithmetic", "init"]
+- !private ["PSs32_FileReferenceLiteralConvertible", "init"]
+- !private ["PSs24_ImageLiteralConvertible", "init"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "advancedBy"]
+- !private ["PSs14_Incrementable", "init"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "init"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "NSURL"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "characters"]
+- !private ["PSs21_ObjectiveCBridgeable", "dataUsingEncoding"]
+- !private ["PSs21_ObjectiveCBridgeable", "hasPrefix"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "startIndex"]
+- !private ["PSs21_ObjectiveCBridgeable", "substringFromIndex"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs22_RandomAccessAmbiguity", "init"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Key"]
+- !private ["PSs12_Reflectable", "NSURL"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "advancedBy"]
+- !private ["PSs12_Reflectable", "appendFormat"]
+- !private ["PSs12_Reflectable", "characterAtIndex"]
+- !private ["PSs12_Reflectable", "characters"]
+- !private ["PSs12_Reflectable", "dataUsingEncoding"]
+- !private ["PSs12_Reflectable", "earlierDate"]
+- !private ["PSs12_Reflectable", "hasPrefix"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "length"]
+- !private ["PSs12_Reflectable", "startIndex"]
+- !private ["PSs12_Reflectable", "substringFromIndex"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs18_SignedIntegerType", "init"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "init"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "VSS13CharacterView"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "VVSS13CharacterView5Index"
+- !private "PSs9Indexable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- !private "CSo18NSAttributedString"
+- !private "CSo10NSCalendar"
+- !private "VSC17NSCalendarOptions"
+- !private "VSC14NSCalendarUnit"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSData"
+- !private "CSo6NSDate"
+- !private "CSo16NSDateComponents"
+- !private "CSo15NSDateFormatter"
+- !private "CSo11NSFormatter"
+- !private "PSo16NSMutableCopying"
+- !private "CSo15NSMutableString"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo9NSScanner"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo5NSURL"
+- !private "CSo7NSValue"
+- "PSs21NilLiteralConvertible"
+- !private "PSs13OptionSetType"
+- "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
+- !private "VSs5Range"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs16RawRepresentable"
+- !private "PSs12SequenceType"
+- !private "PSs14SetAlgebraType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- "CSo7UIColor"
+- !private "CSo7UIImage"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs19UnsignedIntegerType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs31_BuiltinFloatLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs16_CocoaStringType"
+- !private "PSs24_ColorLiteralConvertible"
+- !private "PSs28_DisallowMixedSignArithmetic"
+- !private "PSs32_FileReferenceLiteralConvertible"
+- !private "PSs24_ImageLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFURL.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFTask.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFDefines.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/Bolts.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFPurchase.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFProduct.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFPush.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFInstallation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFSession.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFRole.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFRelation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFQuery.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFFile.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFConfig.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFCloud.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFObject.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFUser.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFACL.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/Parse.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "7290ce1e8798fcf498a80785a74d553d"

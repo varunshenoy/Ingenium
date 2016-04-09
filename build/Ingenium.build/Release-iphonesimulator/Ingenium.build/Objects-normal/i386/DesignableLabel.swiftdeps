@@ -1,0 +1,469 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DesignableLabel"
+provides-nominal:
+- "C8Ingenium15DesignableLabel"
+provides-member:
+- ["C8Ingenium15DesignableLabel", ""]
+provides-dynamic-lookup:
+- "lineHeight"
+depends-top-level:
+- "SpringLabel"
+- !private "NSMakeRange"
+- "DesignableLabel"
+- !private "UIFont"
+- !private "NSFontAttributeName"
+- "CGFloat"
+- !private "NSParagraphStyleAttributeName"
+- !private "NSMutableParagraphStyle"
+- !private "NSMutableAttributedString"
+depends-member:
+- !private ["PSs9AnyObject", "NSFontAttributeName"]
+- !private ["PSs9AnyObject", "NSMakeRange"]
+- !private ["PSs9AnyObject", "NSMutableAttributedString"]
+- !private ["PSs9AnyObject", "NSMutableParagraphStyle"]
+- !private ["PSs9AnyObject", "NSParagraphStyleAttributeName"]
+- !private ["PSs9AnyObject", "UIFont"]
+- !private ["PSs9AnyObject", "addAttribute"]
+- !private ["PSs9AnyObject", "attributedText"]
+- !private ["PSs9AnyObject", "font"]
+- !private ["PSs9AnyObject", "fontName"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "length"]
+- ["PSs9AnyObject", "lineHeight"]
+- !private ["PSs9AnyObject", "lineSpacing"]
+- !private ["PSs9AnyObject", "pointSize"]
+- !private ["PSs9AnyObject", "text"]
+- ["PSs9AnyObject", ""]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "NSFontAttributeName"]
+- !private ["PSs11CVarArgType", "NSMakeRange"]
+- !private ["PSs11CVarArgType", "NSMutableAttributedString"]
+- !private ["PSs11CVarArgType", "NSMutableParagraphStyle"]
+- !private ["PSs11CVarArgType", "NSParagraphStyleAttributeName"]
+- !private ["PSs11CVarArgType", "UIFont"]
+- !private ["PSs11CVarArgType", "addAttribute"]
+- !private ["PSs11CVarArgType", "attributedText"]
+- !private ["PSs11CVarArgType", "font"]
+- !private ["PSs11CVarArgType", "fontName"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "length"]
+- ["PSs11CVarArgType", "lineHeight"]
+- !private ["PSs11CVarArgType", "lineSpacing"]
+- !private ["PSs11CVarArgType", "pointSize"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "NSFontAttributeName"]
+- !private ["PSs23CustomStringConvertible", "NSMakeRange"]
+- !private ["PSs23CustomStringConvertible", "NSMutableAttributedString"]
+- !private ["PSs23CustomStringConvertible", "NSMutableParagraphStyle"]
+- !private ["PSs23CustomStringConvertible", "NSParagraphStyleAttributeName"]
+- !private ["PSs23CustomStringConvertible", "UIFont"]
+- !private ["PSs23CustomStringConvertible", "addAttribute"]
+- !private ["PSs23CustomStringConvertible", "attributedText"]
+- !private ["PSs23CustomStringConvertible", "font"]
+- !private ["PSs23CustomStringConvertible", "fontName"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "length"]
+- ["PSs23CustomStringConvertible", "lineHeight"]
+- !private ["PSs23CustomStringConvertible", "lineSpacing"]
+- !private ["PSs23CustomStringConvertible", "pointSize"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", ""]
+- ["C8Ingenium15DesignableLabel", "CGFloat"]
+- !private ["C8Ingenium15DesignableLabel", "NSFontAttributeName"]
+- !private ["C8Ingenium15DesignableLabel", "NSMakeRange"]
+- !private ["C8Ingenium15DesignableLabel", "NSMutableAttributedString"]
+- !private ["C8Ingenium15DesignableLabel", "NSMutableParagraphStyle"]
+- !private ["C8Ingenium15DesignableLabel", "NSParagraphStyleAttributeName"]
+- !private ["C8Ingenium15DesignableLabel", "UIFont"]
+- !private ["C8Ingenium15DesignableLabel", "attributedText"]
+- ["C8Ingenium15DesignableLabel", "deinit"]
+- !private ["C8Ingenium15DesignableLabel", "font"]
+- ["C8Ingenium15DesignableLabel", "init"]
+- ["C8Ingenium15DesignableLabel", "lineHeight"]
+- !private ["C8Ingenium15DesignableLabel", "text"]
+- !private ["PSs9Equatable", "NSFontAttributeName"]
+- !private ["PSs9Equatable", "NSMakeRange"]
+- !private ["PSs9Equatable", "NSMutableAttributedString"]
+- !private ["PSs9Equatable", "NSMutableParagraphStyle"]
+- !private ["PSs9Equatable", "NSParagraphStyleAttributeName"]
+- !private ["PSs9Equatable", "UIFont"]
+- !private ["PSs9Equatable", "addAttribute"]
+- !private ["PSs9Equatable", "attributedText"]
+- !private ["PSs9Equatable", "font"]
+- !private ["PSs9Equatable", "fontName"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "length"]
+- ["PSs9Equatable", "lineHeight"]
+- !private ["PSs9Equatable", "lineSpacing"]
+- !private ["PSs9Equatable", "pointSize"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "NSFontAttributeName"]
+- !private ["PSs8Hashable", "NSMakeRange"]
+- !private ["PSs8Hashable", "NSMutableAttributedString"]
+- !private ["PSs8Hashable", "NSMutableParagraphStyle"]
+- !private ["PSs8Hashable", "NSParagraphStyleAttributeName"]
+- !private ["PSs8Hashable", "UIFont"]
+- !private ["PSs8Hashable", "addAttribute"]
+- !private ["PSs8Hashable", "attributedText"]
+- !private ["PSs8Hashable", "font"]
+- !private ["PSs8Hashable", "fontName"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "length"]
+- ["PSs8Hashable", "lineHeight"]
+- !private ["PSs8Hashable", "lineSpacing"]
+- !private ["PSs8Hashable", "pointSize"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", ""]
+- !private ["CSo18NSAttributedString", "addAttribute"]
+- !private ["CSo18NSAttributedString", "init"]
+- !private ["CSo18NSAttributedString", "length"]
+- !private ["PSo8NSCoding", "NSFontAttributeName"]
+- !private ["PSo8NSCoding", "NSMakeRange"]
+- !private ["PSo8NSCoding", "NSMutableAttributedString"]
+- !private ["PSo8NSCoding", "NSMutableParagraphStyle"]
+- !private ["PSo8NSCoding", "NSParagraphStyleAttributeName"]
+- !private ["PSo8NSCoding", "UIFont"]
+- !private ["PSo8NSCoding", "addAttribute"]
+- !private ["PSo8NSCoding", "attributedText"]
+- !private ["PSo8NSCoding", "font"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "length"]
+- ["PSo8NSCoding", "lineHeight"]
+- !private ["PSo8NSCoding", "lineSpacing"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "addAttribute"]
+- !private ["PSo9NSCopying", "fontName"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "length"]
+- !private ["PSo9NSCopying", "lineSpacing"]
+- !private ["PSo9NSCopying", "pointSize"]
+- !private ["CSo25NSMutableAttributedString", "addAttribute"]
+- !private ["CSo25NSMutableAttributedString", "init"]
+- !private ["CSo25NSMutableAttributedString", "length"]
+- !private ["PSo16NSMutableCopying", "addAttribute"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "length"]
+- !private ["PSo16NSMutableCopying", "lineSpacing"]
+- !private ["CSo23NSMutableParagraphStyle", "init"]
+- !private ["CSo23NSMutableParagraphStyle", "lineSpacing"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "NSFontAttributeName"]
+- !private ["CSo8NSObject", "NSMakeRange"]
+- !private ["CSo8NSObject", "NSMutableAttributedString"]
+- !private ["CSo8NSObject", "NSMutableParagraphStyle"]
+- !private ["CSo8NSObject", "NSParagraphStyleAttributeName"]
+- !private ["CSo8NSObject", "UIFont"]
+- !private ["CSo8NSObject", "addAttribute"]
+- !private ["CSo8NSObject", "attributedText"]
+- !private ["CSo8NSObject", "font"]
+- !private ["CSo8NSObject", "fontName"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "length"]
+- ["CSo8NSObject", "lineHeight"]
+- !private ["CSo8NSObject", "lineSpacing"]
+- !private ["CSo8NSObject", "pointSize"]
+- !private ["CSo8NSObject", "text"]
+- !private ["PSo16NSObjectProtocol", "NSFontAttributeName"]
+- !private ["PSo16NSObjectProtocol", "NSMakeRange"]
+- !private ["PSo16NSObjectProtocol", "NSMutableAttributedString"]
+- !private ["PSo16NSObjectProtocol", "NSMutableParagraphStyle"]
+- !private ["PSo16NSObjectProtocol", "NSParagraphStyleAttributeName"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
+- !private ["PSo16NSObjectProtocol", "addAttribute"]
+- !private ["PSo16NSObjectProtocol", "attributedText"]
+- !private ["PSo16NSObjectProtocol", "font"]
+- !private ["PSo16NSObjectProtocol", "fontName"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "length"]
+- ["PSo16NSObjectProtocol", "lineHeight"]
+- !private ["PSo16NSObjectProtocol", "lineSpacing"]
+- !private ["PSo16NSObjectProtocol", "pointSize"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo16NSParagraphStyle", "init"]
+- !private ["CSo16NSParagraphStyle", "lineSpacing"]
+- !private ["PSo14NSSecureCoding", "addAttribute"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "length"]
+- !private ["PSo14NSSecureCoding", "lineSpacing"]
+- ["C8Ingenium11SpringLabel", "CGFloat"]
+- !private ["C8Ingenium11SpringLabel", "NSFontAttributeName"]
+- !private ["C8Ingenium11SpringLabel", "NSMakeRange"]
+- !private ["C8Ingenium11SpringLabel", "NSMutableAttributedString"]
+- !private ["C8Ingenium11SpringLabel", "NSMutableParagraphStyle"]
+- !private ["C8Ingenium11SpringLabel", "NSParagraphStyleAttributeName"]
+- !private ["C8Ingenium11SpringLabel", "UIFont"]
+- !private ["C8Ingenium11SpringLabel", "attributedText"]
+- !private ["C8Ingenium11SpringLabel", "font"]
+- ["C8Ingenium11SpringLabel", "init"]
+- ["C8Ingenium11SpringLabel", "lineHeight"]
+- !private ["C8Ingenium11SpringLabel", "text"]
+- ["C8Ingenium11SpringLabel", ""]
+- !private ["P8Ingenium10Springable", "NSFontAttributeName"]
+- !private ["P8Ingenium10Springable", "NSMakeRange"]
+- !private ["P8Ingenium10Springable", "NSMutableAttributedString"]
+- !private ["P8Ingenium10Springable", "NSMutableParagraphStyle"]
+- !private ["P8Ingenium10Springable", "NSParagraphStyleAttributeName"]
+- !private ["P8Ingenium10Springable", "UIFont"]
+- !private ["P8Ingenium10Springable", "attributedText"]
+- !private ["P8Ingenium10Springable", "font"]
+- ["P8Ingenium10Springable", "init"]
+- ["P8Ingenium10Springable", "lineHeight"]
+- !private ["P8Ingenium10Springable", "text"]
+- ["P8Ingenium10Springable", ""]
+- !private ["PSo29UIAccessibilityIdentification", "NSFontAttributeName"]
+- !private ["PSo29UIAccessibilityIdentification", "NSMakeRange"]
+- !private ["PSo29UIAccessibilityIdentification", "NSMutableAttributedString"]
+- !private ["PSo29UIAccessibilityIdentification", "NSMutableParagraphStyle"]
+- !private ["PSo29UIAccessibilityIdentification", "NSParagraphStyleAttributeName"]
+- !private ["PSo29UIAccessibilityIdentification", "UIFont"]
+- !private ["PSo29UIAccessibilityIdentification", "attributedText"]
+- !private ["PSo29UIAccessibilityIdentification", "font"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "lineHeight"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "NSFontAttributeName"]
+- !private ["PSo12UIAppearance", "NSMakeRange"]
+- !private ["PSo12UIAppearance", "NSMutableAttributedString"]
+- !private ["PSo12UIAppearance", "NSMutableParagraphStyle"]
+- !private ["PSo12UIAppearance", "NSParagraphStyleAttributeName"]
+- !private ["PSo12UIAppearance", "UIFont"]
+- !private ["PSo12UIAppearance", "attributedText"]
+- !private ["PSo12UIAppearance", "font"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "lineHeight"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "NSFontAttributeName"]
+- !private ["PSo21UIAppearanceContainer", "NSMakeRange"]
+- !private ["PSo21UIAppearanceContainer", "NSMutableAttributedString"]
+- !private ["PSo21UIAppearanceContainer", "NSMutableParagraphStyle"]
+- !private ["PSo21UIAppearanceContainer", "NSParagraphStyleAttributeName"]
+- !private ["PSo21UIAppearanceContainer", "UIFont"]
+- !private ["PSo21UIAppearanceContainer", "attributedText"]
+- !private ["PSo21UIAppearanceContainer", "font"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "lineHeight"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "NSFontAttributeName"]
+- !private ["PSo17UICoordinateSpace", "NSMakeRange"]
+- !private ["PSo17UICoordinateSpace", "NSMutableAttributedString"]
+- !private ["PSo17UICoordinateSpace", "NSMutableParagraphStyle"]
+- !private ["PSo17UICoordinateSpace", "NSParagraphStyleAttributeName"]
+- !private ["PSo17UICoordinateSpace", "UIFont"]
+- !private ["PSo17UICoordinateSpace", "attributedText"]
+- !private ["PSo17UICoordinateSpace", "font"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "lineHeight"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "NSFontAttributeName"]
+- !private ["PSo13UIDynamicItem", "NSMakeRange"]
+- !private ["PSo13UIDynamicItem", "NSMutableAttributedString"]
+- !private ["PSo13UIDynamicItem", "NSMutableParagraphStyle"]
+- !private ["PSo13UIDynamicItem", "NSParagraphStyleAttributeName"]
+- !private ["PSo13UIDynamicItem", "UIFont"]
+- !private ["PSo13UIDynamicItem", "attributedText"]
+- !private ["PSo13UIDynamicItem", "font"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "lineHeight"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "NSFontAttributeName"]
+- !private ["PSo18UIFocusEnvironment", "NSMakeRange"]
+- !private ["PSo18UIFocusEnvironment", "NSMutableAttributedString"]
+- !private ["PSo18UIFocusEnvironment", "NSMutableParagraphStyle"]
+- !private ["PSo18UIFocusEnvironment", "NSParagraphStyleAttributeName"]
+- !private ["PSo18UIFocusEnvironment", "UIFont"]
+- !private ["PSo18UIFocusEnvironment", "attributedText"]
+- !private ["PSo18UIFocusEnvironment", "font"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "lineHeight"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo6UIFont", "fontName"]
+- !private ["CSo6UIFont", "init"]
+- !private ["CSo6UIFont", "pointSize"]
+- ["CSo7UILabel", "CGFloat"]
+- !private ["CSo7UILabel", "NSFontAttributeName"]
+- !private ["CSo7UILabel", "NSMakeRange"]
+- !private ["CSo7UILabel", "NSMutableAttributedString"]
+- !private ["CSo7UILabel", "NSMutableParagraphStyle"]
+- !private ["CSo7UILabel", "NSParagraphStyleAttributeName"]
+- !private ["CSo7UILabel", "UIFont"]
+- !private ["CSo7UILabel", "attributedText"]
+- !private ["CSo7UILabel", "font"]
+- ["CSo7UILabel", "init"]
+- ["CSo7UILabel", "lineHeight"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "CGFloat"]
+- !private ["CSo11UIResponder", "NSFontAttributeName"]
+- !private ["CSo11UIResponder", "NSMakeRange"]
+- !private ["CSo11UIResponder", "NSMutableAttributedString"]
+- !private ["CSo11UIResponder", "NSMutableParagraphStyle"]
+- !private ["CSo11UIResponder", "NSParagraphStyleAttributeName"]
+- !private ["CSo11UIResponder", "UIFont"]
+- !private ["CSo11UIResponder", "attributedText"]
+- !private ["CSo11UIResponder", "font"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "lineHeight"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["PSo18UITraitEnvironment", "NSFontAttributeName"]
+- !private ["PSo18UITraitEnvironment", "NSMakeRange"]
+- !private ["PSo18UITraitEnvironment", "NSMutableAttributedString"]
+- !private ["PSo18UITraitEnvironment", "NSMutableParagraphStyle"]
+- !private ["PSo18UITraitEnvironment", "NSParagraphStyleAttributeName"]
+- !private ["PSo18UITraitEnvironment", "UIFont"]
+- !private ["PSo18UITraitEnvironment", "attributedText"]
+- !private ["PSo18UITraitEnvironment", "font"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "lineHeight"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGFloat"]
+- !private ["CSo6UIView", "NSFontAttributeName"]
+- !private ["CSo6UIView", "NSMakeRange"]
+- !private ["CSo6UIView", "NSMutableAttributedString"]
+- !private ["CSo6UIView", "NSMutableParagraphStyle"]
+- !private ["CSo6UIView", "NSParagraphStyleAttributeName"]
+- !private ["CSo6UIView", "UIFont"]
+- !private ["CSo6UIView", "attributedText"]
+- !private ["CSo6UIView", "font"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "lineHeight"]
+- !private ["CSo6UIView", "text"]
+- !private ["PSs12_Reflectable", "NSFontAttributeName"]
+- !private ["PSs12_Reflectable", "NSMakeRange"]
+- !private ["PSs12_Reflectable", "NSMutableAttributedString"]
+- !private ["PSs12_Reflectable", "NSMutableParagraphStyle"]
+- !private ["PSs12_Reflectable", "NSParagraphStyleAttributeName"]
+- !private ["PSs12_Reflectable", "UIFont"]
+- !private ["PSs12_Reflectable", "attributedText"]
+- !private ["PSs12_Reflectable", "font"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", "lineHeight"]
+- !private ["PSs12_Reflectable", "text"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "C8Ingenium15DesignableLabel"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "CSo18NSAttributedString"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo25NSMutableAttributedString"
+- !private "PSo16NSMutableCopying"
+- !private "CSo23NSMutableParagraphStyle"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo16NSParagraphStyle"
+- !private "PSo14NSSecureCoding"
+- "C8Ingenium11SpringLabel"
+- "P8Ingenium10Springable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo6UIFont"
+- "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreLocation.swiftmodule"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFURL.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFTask.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFDefines.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/Bolts.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFPurchase.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFProduct.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFPush.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFInstallation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFSession.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFRole.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFRelation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFQuery.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFFile.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFConfig.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFCloud.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFObject.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFUser.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFACL.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/Parse.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreAudio.swiftmodule"
+interface-hash: "a91c932e77f0a661528e98513c96118b"

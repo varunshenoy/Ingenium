@@ -1,0 +1,495 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AutoTextView"
+provides-nominal:
+- "C8Ingenium12AutoTextView"
+provides-member:
+- ["C8Ingenium12AutoTextView", ""]
+provides-dynamic-lookup:
+- "intrinsicContentSize"
+depends-top-level:
+- "CGSize"
+- !private "CGFloat"
+- !private "CGSizeMake"
+- "UITextView"
+- "AutoTextView"
+- !private "UIEdgeInsetsMake"
+- !private "=="
+depends-member:
+- !private ["PSs16AbsoluteValuable", "max"]
+- !private ["PSs9AnyObject", "CGFloat"]
+- !private ["PSs9AnyObject", "CGSizeMake"]
+- !private ["PSs9AnyObject", "UIEdgeInsetsMake"]
+- !private ["PSs9AnyObject", "contentInset"]
+- !private ["PSs9AnyObject", "frame"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "intrinsicContentSize"]
+- !private ["PSs9AnyObject", "layoutIfNeeded"]
+- !private ["PSs9AnyObject", "length"]
+- !private ["PSs9AnyObject", "sizeThatFits"]
+- !private ["PSs9AnyObject", "text"]
+- ["PSs9AnyObject", ""]
+- !private ["C8Ingenium12AutoTextView", "CGFloat"]
+- ["C8Ingenium12AutoTextView", "CGSize"]
+- !private ["C8Ingenium12AutoTextView", "CGSizeMake"]
+- !private ["C8Ingenium12AutoTextView", "UIEdgeInsetsMake"]
+- !private ["C8Ingenium12AutoTextView", "contentInset"]
+- ["C8Ingenium12AutoTextView", "deinit"]
+- !private ["C8Ingenium12AutoTextView", "frame"]
+- ["C8Ingenium12AutoTextView", "init"]
+- ["C8Ingenium12AutoTextView", "intrinsicContentSize"]
+- !private ["C8Ingenium12AutoTextView", "layoutIfNeeded"]
+- !private ["C8Ingenium12AutoTextView", "sizeThatFits"]
+- !private ["C8Ingenium12AutoTextView", "text"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "max"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["PSs11CVarArgType", "CGFloat"]
+- !private ["PSs11CVarArgType", "CGSizeMake"]
+- !private ["PSs11CVarArgType", "UIEdgeInsetsMake"]
+- !private ["PSs11CVarArgType", "contentInset"]
+- !private ["PSs11CVarArgType", "frame"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "intrinsicContentSize"]
+- !private ["PSs11CVarArgType", "layoutIfNeeded"]
+- !private ["PSs11CVarArgType", "length"]
+- !private ["PSs11CVarArgType", "max"]
+- !private ["PSs11CVarArgType", "sizeThatFits"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs10Comparable", "length"]
+- !private ["PSs10Comparable", "max"]
+- !private ["PSs28CustomDebugStringConvertible", "length"]
+- !private ["PSs23CustomStringConvertible", "CGFloat"]
+- !private ["PSs23CustomStringConvertible", "CGSizeMake"]
+- !private ["PSs23CustomStringConvertible", "UIEdgeInsetsMake"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "contentInset"]
+- !private ["PSs23CustomStringConvertible", "frame"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "intrinsicContentSize"]
+- !private ["PSs23CustomStringConvertible", "layoutIfNeeded"]
+- !private ["PSs23CustomStringConvertible", "length"]
+- !private ["PSs23CustomStringConvertible", "max"]
+- !private ["PSs23CustomStringConvertible", "sizeThatFits"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CGFloat"]
+- !private ["PSs9Equatable", "CGSizeMake"]
+- !private ["PSs9Equatable", "UIEdgeInsetsMake"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "contentInset"]
+- !private ["PSs9Equatable", "frame"]
+- !private ["PSs9Equatable", "height"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "intrinsicContentSize"]
+- !private ["PSs9Equatable", "layoutIfNeeded"]
+- !private ["PSs9Equatable", "length"]
+- !private ["PSs9Equatable", "max"]
+- !private ["PSs9Equatable", "size"]
+- !private ["PSs9Equatable", "sizeThatFits"]
+- !private ["PSs9Equatable", "text"]
+- !private ["PSs9Equatable", "width"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "length"]
+- !private ["PSs23FloatLiteralConvertible", "max"]
+- !private ["PSs17FloatingPointType", "max"]
+- !private ["PSs8Hashable", "CGFloat"]
+- !private ["PSs8Hashable", "CGSizeMake"]
+- !private ["PSs8Hashable", "UIEdgeInsetsMake"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "contentInset"]
+- !private ["PSs8Hashable", "frame"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "intrinsicContentSize"]
+- !private ["PSs8Hashable", "layoutIfNeeded"]
+- !private ["PSs8Hashable", "length"]
+- !private ["PSs8Hashable", "max"]
+- !private ["PSs8Hashable", "sizeThatFits"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", ""]
+- !private ["PSs25IntegerLiteralConvertible", "max"]
+- !private ["PSs14MirrorPathType", "length"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- !private ["PSo8NSCoding", "CGSizeMake"]
+- !private ["PSo8NSCoding", "UIEdgeInsetsMake"]
+- !private ["PSo8NSCoding", "contentInset"]
+- !private ["PSo8NSCoding", "frame"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "intrinsicContentSize"]
+- !private ["PSo8NSCoding", "layoutIfNeeded"]
+- !private ["PSo8NSCoding", "length"]
+- !private ["PSo8NSCoding", "sizeThatFits"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "length"]
+- !private ["PSo16NSMutableCopying", "length"]
+- !private ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGSize"]
+- !private ["CSo8NSObject", "CGSizeMake"]
+- !private ["CSo8NSObject", "UIEdgeInsetsMake"]
+- !private ["CSo8NSObject", "contentInset"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "intrinsicContentSize"]
+- !private ["CSo8NSObject", "layoutIfNeeded"]
+- !private ["CSo8NSObject", "length"]
+- !private ["CSo8NSObject", "sizeThatFits"]
+- !private ["CSo8NSObject", "text"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGSizeMake"]
+- !private ["PSo16NSObjectProtocol", "UIEdgeInsetsMake"]
+- !private ["PSo16NSObjectProtocol", "contentInset"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "intrinsicContentSize"]
+- !private ["PSo16NSObjectProtocol", "layoutIfNeeded"]
+- !private ["PSo16NSObjectProtocol", "length"]
+- !private ["PSo16NSObjectProtocol", "sizeThatFits"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "length"]
+- !private ["CSo8NSString", "length"]
+- !private ["PSs16OutputStreamType", "length"]
+- !private ["PSs16SignedNumberType", "max"]
+- !private ["PSs10Streamable", "length"]
+- !private ["PSs10Strideable", "max"]
+- !private ["SS", "length"]
+- !private ["PSs30StringInterpolationConvertible", "length"]
+- !private ["PSs24StringLiteralConvertible", "length"]
+- !private ["PSo29UIAccessibilityIdentification", "CGFloat"]
+- !private ["PSo29UIAccessibilityIdentification", "CGSizeMake"]
+- !private ["PSo29UIAccessibilityIdentification", "UIEdgeInsetsMake"]
+- !private ["PSo29UIAccessibilityIdentification", "contentInset"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "intrinsicContentSize"]
+- !private ["PSo29UIAccessibilityIdentification", "layoutIfNeeded"]
+- !private ["PSo29UIAccessibilityIdentification", "sizeThatFits"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGFloat"]
+- !private ["PSo12UIAppearance", "CGSizeMake"]
+- !private ["PSo12UIAppearance", "UIEdgeInsetsMake"]
+- !private ["PSo12UIAppearance", "contentInset"]
+- !private ["PSo12UIAppearance", "frame"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "intrinsicContentSize"]
+- !private ["PSo12UIAppearance", "layoutIfNeeded"]
+- !private ["PSo12UIAppearance", "sizeThatFits"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGFloat"]
+- !private ["PSo21UIAppearanceContainer", "CGSizeMake"]
+- !private ["PSo21UIAppearanceContainer", "UIEdgeInsetsMake"]
+- !private ["PSo21UIAppearanceContainer", "contentInset"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "intrinsicContentSize"]
+- !private ["PSo21UIAppearanceContainer", "layoutIfNeeded"]
+- !private ["PSo21UIAppearanceContainer", "sizeThatFits"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "CGFloat"]
+- !private ["PSo17UICoordinateSpace", "CGSizeMake"]
+- !private ["PSo17UICoordinateSpace", "UIEdgeInsetsMake"]
+- !private ["PSo17UICoordinateSpace", "contentInset"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "intrinsicContentSize"]
+- !private ["PSo17UICoordinateSpace", "layoutIfNeeded"]
+- !private ["PSo17UICoordinateSpace", "sizeThatFits"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGFloat"]
+- !private ["PSo13UIDynamicItem", "CGSizeMake"]
+- !private ["PSo13UIDynamicItem", "UIEdgeInsetsMake"]
+- !private ["PSo13UIDynamicItem", "contentInset"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "intrinsicContentSize"]
+- !private ["PSo13UIDynamicItem", "layoutIfNeeded"]
+- !private ["PSo13UIDynamicItem", "sizeThatFits"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGFloat"]
+- !private ["PSo18UIFocusEnvironment", "CGSizeMake"]
+- !private ["PSo18UIFocusEnvironment", "UIEdgeInsetsMake"]
+- !private ["PSo18UIFocusEnvironment", "contentInset"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "intrinsicContentSize"]
+- !private ["PSo18UIFocusEnvironment", "layoutIfNeeded"]
+- !private ["PSo18UIFocusEnvironment", "sizeThatFits"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "CGFloat"]
+- !private ["PSo10UIKeyInput", "CGSizeMake"]
+- !private ["PSo10UIKeyInput", "UIEdgeInsetsMake"]
+- !private ["PSo10UIKeyInput", "contentInset"]
+- !private ["PSo10UIKeyInput", "frame"]
+- ["PSo10UIKeyInput", "init"]
+- ["PSo10UIKeyInput", "intrinsicContentSize"]
+- !private ["PSo10UIKeyInput", "layoutIfNeeded"]
+- !private ["PSo10UIKeyInput", "sizeThatFits"]
+- !private ["PSo10UIKeyInput", "text"]
+- ["PSo10UIKeyInput", ""]
+- !private ["CSo11UIResponder", "CGFloat"]
+- ["CSo11UIResponder", "CGSize"]
+- !private ["CSo11UIResponder", "CGSizeMake"]
+- !private ["CSo11UIResponder", "UIEdgeInsetsMake"]
+- !private ["CSo11UIResponder", "contentInset"]
+- !private ["CSo11UIResponder", "frame"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "intrinsicContentSize"]
+- !private ["CSo11UIResponder", "layoutIfNeeded"]
+- !private ["CSo11UIResponder", "sizeThatFits"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo12UIScrollView", "CGFloat"]
+- ["CSo12UIScrollView", "CGSize"]
+- !private ["CSo12UIScrollView", "CGSizeMake"]
+- !private ["CSo12UIScrollView", "UIEdgeInsetsMake"]
+- !private ["CSo12UIScrollView", "contentInset"]
+- !private ["CSo12UIScrollView", "frame"]
+- ["CSo12UIScrollView", "init"]
+- ["CSo12UIScrollView", "intrinsicContentSize"]
+- !private ["CSo12UIScrollView", "layoutIfNeeded"]
+- !private ["CSo12UIScrollView", "sizeThatFits"]
+- !private ["CSo12UIScrollView", "text"]
+- !private ["PSo11UITextInput", "CGFloat"]
+- !private ["PSo11UITextInput", "CGSizeMake"]
+- !private ["PSo11UITextInput", "UIEdgeInsetsMake"]
+- !private ["PSo11UITextInput", "contentInset"]
+- !private ["PSo11UITextInput", "frame"]
+- ["PSo11UITextInput", "init"]
+- ["PSo11UITextInput", "intrinsicContentSize"]
+- !private ["PSo11UITextInput", "layoutIfNeeded"]
+- !private ["PSo11UITextInput", "sizeThatFits"]
+- !private ["PSo11UITextInput", "text"]
+- ["PSo11UITextInput", ""]
+- !private ["PSo17UITextInputTraits", "CGFloat"]
+- !private ["PSo17UITextInputTraits", "CGSizeMake"]
+- !private ["PSo17UITextInputTraits", "UIEdgeInsetsMake"]
+- !private ["PSo17UITextInputTraits", "contentInset"]
+- !private ["PSo17UITextInputTraits", "frame"]
+- ["PSo17UITextInputTraits", "init"]
+- ["PSo17UITextInputTraits", "intrinsicContentSize"]
+- !private ["PSo17UITextInputTraits", "layoutIfNeeded"]
+- !private ["PSo17UITextInputTraits", "sizeThatFits"]
+- !private ["PSo17UITextInputTraits", "text"]
+- ["PSo17UITextInputTraits", ""]
+- !private ["CSo10UITextView", "CGFloat"]
+- ["CSo10UITextView", "CGSize"]
+- !private ["CSo10UITextView", "CGSizeMake"]
+- !private ["CSo10UITextView", "UIEdgeInsetsMake"]
+- !private ["CSo10UITextView", "contentInset"]
+- !private ["CSo10UITextView", "frame"]
+- ["CSo10UITextView", "init"]
+- ["CSo10UITextView", "intrinsicContentSize"]
+- !private ["CSo10UITextView", "layoutIfNeeded"]
+- !private ["CSo10UITextView", "sizeThatFits"]
+- !private ["CSo10UITextView", "text"]
+- ["CSo10UITextView", ""]
+- !private ["PSo18UITraitEnvironment", "CGFloat"]
+- !private ["PSo18UITraitEnvironment", "CGSizeMake"]
+- !private ["PSo18UITraitEnvironment", "UIEdgeInsetsMake"]
+- !private ["PSo18UITraitEnvironment", "contentInset"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "intrinsicContentSize"]
+- !private ["PSo18UITraitEnvironment", "layoutIfNeeded"]
+- !private ["PSo18UITraitEnvironment", "sizeThatFits"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "CGFloat"]
+- ["CSo6UIView", "CGSize"]
+- !private ["CSo6UIView", "CGSizeMake"]
+- !private ["CSo6UIView", "UIEdgeInsetsMake"]
+- !private ["CSo6UIView", "contentInset"]
+- !private ["CSo6UIView", "frame"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "intrinsicContentSize"]
+- !private ["CSo6UIView", "layoutIfNeeded"]
+- !private ["CSo6UIView", "sizeThatFits"]
+- !private ["CSo6UIView", "text"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "length"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "length"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "length"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "length"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "length"]
+- !private ["PSs19_CVarArgAlignedType", "max"]
+- !private ["PSs22_CVarArgPassedAsDouble", "max"]
+- !private ["PSs16_CocoaStringType", "length"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "length"]
+- !private ["PSs21_ObjectiveCBridgeable", "max"]
+- !private ["PSs12_Reflectable", "CGFloat"]
+- !private ["PSs12_Reflectable", "CGSizeMake"]
+- !private ["PSs12_Reflectable", "UIEdgeInsetsMake"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "contentInset"]
+- !private ["PSs12_Reflectable", "frame"]
+- !private ["PSs12_Reflectable", "height"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", "intrinsicContentSize"]
+- !private ["PSs12_Reflectable", "layoutIfNeeded"]
+- !private ["PSs12_Reflectable", "length"]
+- !private ["PSs12_Reflectable", "max"]
+- !private ["PSs12_Reflectable", "size"]
+- !private ["PSs12_Reflectable", "sizeThatFits"]
+- !private ["PSs12_Reflectable", "text"]
+- !private ["PSs12_Reflectable", "width"]
+- ["PSs12_Reflectable", ""]
+- !private ["PSs11_Strideable", "max"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- "C8Ingenium12AutoTextView"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
+- "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- "PSs8Hashable"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "PSs16OutputStreamType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "CSo12UIScrollView"
+- "PSo11UITextInput"
+- "PSo17UITextInputTraits"
+- "CSo10UITextView"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs16_CocoaStringType"
+- !private "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreLocation.swiftmodule"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFURL.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFTask.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFDefines.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/Bolts.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFPurchase.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFProduct.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFPush.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFInstallation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFSession.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFRole.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFRelation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFQuery.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFFile.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFConfig.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFCloud.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFObject.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFUser.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFACL.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/Parse.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreAudio.swiftmodule"
+interface-hash: "cb87c8acf2bedbd8dd5b23452b7430c2"

@@ -1,0 +1,495 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DesignableButton"
+provides-nominal:
+- "C8Ingenium16DesignableButton"
+provides-member:
+- ["C8Ingenium16DesignableButton", ""]
+provides-dynamic-lookup:
+- "shadowOpacity"
+- "cornerRadius"
+- "shadowColor"
+- "borderWidth"
+- "shadowRadius"
+- "borderColor"
+- "shadowOffsetY"
+depends-top-level:
+- !private "Float"
+- "CGFloat"
+- "UIColor"
+- "DesignableButton"
+- "SpringButton"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "CGColor"]
+- !private ["PSs9AnyObject", "Float"]
+- ["PSs9AnyObject", "UIColor"]
+- ["PSs9AnyObject", "borderColor"]
+- ["PSs9AnyObject", "borderWidth"]
+- ["PSs9AnyObject", "clearColor"]
+- ["PSs9AnyObject", "cornerRadius"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "layer"]
+- ["PSs9AnyObject", "shadowColor"]
+- !private ["PSs9AnyObject", "shadowOffset"]
+- ["PSs9AnyObject", "shadowOffsetY"]
+- ["PSs9AnyObject", "shadowOpacity"]
+- ["PSs9AnyObject", "shadowRadius"]
+- ["PSs9AnyObject", ""]
+- !private ["CSo7CALayer", "borderColor"]
+- !private ["CSo7CALayer", "borderWidth"]
+- !private ["CSo7CALayer", "cornerRadius"]
+- !private ["CSo7CALayer", "shadowColor"]
+- !private ["CSo7CALayer", "shadowOffset"]
+- !private ["CSo7CALayer", "shadowOpacity"]
+- !private ["CSo7CALayer", "shadowRadius"]
+- !private ["PSo13CAMediaTiming", "borderColor"]
+- !private ["PSo13CAMediaTiming", "borderWidth"]
+- !private ["PSo13CAMediaTiming", "cornerRadius"]
+- !private ["PSo13CAMediaTiming", "shadowColor"]
+- !private ["PSo13CAMediaTiming", "shadowOffset"]
+- !private ["PSo13CAMediaTiming", "shadowOpacity"]
+- !private ["PSo13CAMediaTiming", "shadowRadius"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC6CGSize", "height"]
+- !private ["PSs11CVarArgType", "CGColor"]
+- !private ["PSs11CVarArgType", "Float"]
+- ["PSs11CVarArgType", "UIColor"]
+- ["PSs11CVarArgType", "borderColor"]
+- ["PSs11CVarArgType", "borderWidth"]
+- ["PSs11CVarArgType", "clearColor"]
+- ["PSs11CVarArgType", "cornerRadius"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "layer"]
+- ["PSs11CVarArgType", "shadowColor"]
+- !private ["PSs11CVarArgType", "shadowOffset"]
+- ["PSs11CVarArgType", "shadowOffsetY"]
+- ["PSs11CVarArgType", "shadowOpacity"]
+- ["PSs11CVarArgType", "shadowRadius"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs23CustomStringConvertible", "CGColor"]
+- !private ["PSs23CustomStringConvertible", "Float"]
+- ["PSs23CustomStringConvertible", "UIColor"]
+- ["PSs23CustomStringConvertible", "borderColor"]
+- ["PSs23CustomStringConvertible", "borderWidth"]
+- ["PSs23CustomStringConvertible", "clearColor"]
+- ["PSs23CustomStringConvertible", "cornerRadius"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "layer"]
+- ["PSs23CustomStringConvertible", "shadowColor"]
+- !private ["PSs23CustomStringConvertible", "shadowOffset"]
+- ["PSs23CustomStringConvertible", "shadowOffsetY"]
+- ["PSs23CustomStringConvertible", "shadowOpacity"]
+- ["PSs23CustomStringConvertible", "shadowRadius"]
+- ["PSs23CustomStringConvertible", ""]
+- ["C8Ingenium16DesignableButton", "CGFloat"]
+- !private ["C8Ingenium16DesignableButton", "Float"]
+- ["C8Ingenium16DesignableButton", "UIColor"]
+- ["C8Ingenium16DesignableButton", "borderColor"]
+- ["C8Ingenium16DesignableButton", "borderWidth"]
+- ["C8Ingenium16DesignableButton", "cornerRadius"]
+- ["C8Ingenium16DesignableButton", "deinit"]
+- ["C8Ingenium16DesignableButton", "init"]
+- !private ["C8Ingenium16DesignableButton", "layer"]
+- ["C8Ingenium16DesignableButton", "shadowColor"]
+- ["C8Ingenium16DesignableButton", "shadowOffsetY"]
+- ["C8Ingenium16DesignableButton", "shadowOpacity"]
+- ["C8Ingenium16DesignableButton", "shadowRadius"]
+- !private ["PSs9Equatable", "CGColor"]
+- !private ["PSs9Equatable", "Float"]
+- ["PSs9Equatable", "UIColor"]
+- ["PSs9Equatable", "borderColor"]
+- ["PSs9Equatable", "borderWidth"]
+- ["PSs9Equatable", "clearColor"]
+- ["PSs9Equatable", "cornerRadius"]
+- !private ["PSs9Equatable", "height"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "layer"]
+- ["PSs9Equatable", "shadowColor"]
+- !private ["PSs9Equatable", "shadowOffset"]
+- ["PSs9Equatable", "shadowOffsetY"]
+- ["PSs9Equatable", "shadowOpacity"]
+- ["PSs9Equatable", "shadowRadius"]
+- ["PSs9Equatable", ""]
+- !private ["Sf", "init"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs8Hashable", "CGColor"]
+- !private ["PSs8Hashable", "Float"]
+- ["PSs8Hashable", "UIColor"]
+- ["PSs8Hashable", "borderColor"]
+- ["PSs8Hashable", "borderWidth"]
+- ["PSs8Hashable", "clearColor"]
+- ["PSs8Hashable", "cornerRadius"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "layer"]
+- ["PSs8Hashable", "shadowColor"]
+- !private ["PSs8Hashable", "shadowOffset"]
+- ["PSs8Hashable", "shadowOffsetY"]
+- ["PSs8Hashable", "shadowOpacity"]
+- ["PSs8Hashable", "shadowRadius"]
+- ["PSs8Hashable", ""]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSo8NSCoding", "CGColor"]
+- !private ["PSo8NSCoding", "Float"]
+- ["PSo8NSCoding", "UIColor"]
+- ["PSo8NSCoding", "borderColor"]
+- ["PSo8NSCoding", "borderWidth"]
+- ["PSo8NSCoding", "clearColor"]
+- ["PSo8NSCoding", "cornerRadius"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- ["PSo8NSCoding", "shadowColor"]
+- !private ["PSo8NSCoding", "shadowOffset"]
+- ["PSo8NSCoding", "shadowOffsetY"]
+- ["PSo8NSCoding", "shadowOpacity"]
+- ["PSo8NSCoding", "shadowRadius"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "CGColor"]
+- ["PSo9NSCopying", "clearColor"]
+- !private ["CSo8NSObject", "CGColor"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "Float"]
+- ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "borderColor"]
+- ["CSo8NSObject", "borderWidth"]
+- ["CSo8NSObject", "clearColor"]
+- ["CSo8NSObject", "cornerRadius"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layer"]
+- ["CSo8NSObject", "shadowColor"]
+- !private ["CSo8NSObject", "shadowOffset"]
+- ["CSo8NSObject", "shadowOffsetY"]
+- ["CSo8NSObject", "shadowOpacity"]
+- ["CSo8NSObject", "shadowRadius"]
+- !private ["PSo16NSObjectProtocol", "CGColor"]
+- !private ["PSo16NSObjectProtocol", "Float"]
+- ["PSo16NSObjectProtocol", "UIColor"]
+- ["PSo16NSObjectProtocol", "borderColor"]
+- ["PSo16NSObjectProtocol", "borderWidth"]
+- ["PSo16NSObjectProtocol", "clearColor"]
+- ["PSo16NSObjectProtocol", "cornerRadius"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- ["PSo16NSObjectProtocol", "shadowColor"]
+- !private ["PSo16NSObjectProtocol", "shadowOffset"]
+- ["PSo16NSObjectProtocol", "shadowOffsetY"]
+- ["PSo16NSObjectProtocol", "shadowOpacity"]
+- ["PSo16NSObjectProtocol", "shadowRadius"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "CGColor"]
+- ["PSo14NSSecureCoding", "clearColor"]
+- !private ["PSs16SignedNumberType", "init"]
+- ["C8Ingenium12SpringButton", "CGFloat"]
+- !private ["C8Ingenium12SpringButton", "Float"]
+- ["C8Ingenium12SpringButton", "UIColor"]
+- ["C8Ingenium12SpringButton", "borderColor"]
+- ["C8Ingenium12SpringButton", "borderWidth"]
+- ["C8Ingenium12SpringButton", "cornerRadius"]
+- ["C8Ingenium12SpringButton", "init"]
+- !private ["C8Ingenium12SpringButton", "layer"]
+- ["C8Ingenium12SpringButton", "shadowColor"]
+- ["C8Ingenium12SpringButton", "shadowOffsetY"]
+- ["C8Ingenium12SpringButton", "shadowOpacity"]
+- ["C8Ingenium12SpringButton", "shadowRadius"]
+- ["C8Ingenium12SpringButton", ""]
+- !private ["P8Ingenium10Springable", "Float"]
+- ["P8Ingenium10Springable", "UIColor"]
+- ["P8Ingenium10Springable", "borderColor"]
+- ["P8Ingenium10Springable", "borderWidth"]
+- ["P8Ingenium10Springable", "cornerRadius"]
+- ["P8Ingenium10Springable", "init"]
+- !private ["P8Ingenium10Springable", "layer"]
+- ["P8Ingenium10Springable", "shadowColor"]
+- ["P8Ingenium10Springable", "shadowOffsetY"]
+- ["P8Ingenium10Springable", "shadowOpacity"]
+- ["P8Ingenium10Springable", "shadowRadius"]
+- ["P8Ingenium10Springable", ""]
+- !private ["PSs10Strideable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "Float"]
+- ["PSo29UIAccessibilityIdentification", "UIColor"]
+- ["PSo29UIAccessibilityIdentification", "borderColor"]
+- ["PSo29UIAccessibilityIdentification", "borderWidth"]
+- ["PSo29UIAccessibilityIdentification", "cornerRadius"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- ["PSo29UIAccessibilityIdentification", "shadowColor"]
+- ["PSo29UIAccessibilityIdentification", "shadowOffsetY"]
+- ["PSo29UIAccessibilityIdentification", "shadowOpacity"]
+- ["PSo29UIAccessibilityIdentification", "shadowRadius"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "Float"]
+- ["PSo12UIAppearance", "UIColor"]
+- ["PSo12UIAppearance", "borderColor"]
+- ["PSo12UIAppearance", "borderWidth"]
+- ["PSo12UIAppearance", "cornerRadius"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "layer"]
+- ["PSo12UIAppearance", "shadowColor"]
+- ["PSo12UIAppearance", "shadowOffsetY"]
+- ["PSo12UIAppearance", "shadowOpacity"]
+- ["PSo12UIAppearance", "shadowRadius"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "Float"]
+- ["PSo21UIAppearanceContainer", "UIColor"]
+- ["PSo21UIAppearanceContainer", "borderColor"]
+- ["PSo21UIAppearanceContainer", "borderWidth"]
+- ["PSo21UIAppearanceContainer", "cornerRadius"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- ["PSo21UIAppearanceContainer", "shadowColor"]
+- ["PSo21UIAppearanceContainer", "shadowOffsetY"]
+- ["PSo21UIAppearanceContainer", "shadowOpacity"]
+- ["PSo21UIAppearanceContainer", "shadowRadius"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo8UIButton", "CGFloat"]
+- !private ["CSo8UIButton", "Float"]
+- ["CSo8UIButton", "UIColor"]
+- ["CSo8UIButton", "borderColor"]
+- ["CSo8UIButton", "borderWidth"]
+- ["CSo8UIButton", "cornerRadius"]
+- ["CSo8UIButton", "init"]
+- !private ["CSo8UIButton", "layer"]
+- ["CSo8UIButton", "shadowColor"]
+- ["CSo8UIButton", "shadowOffsetY"]
+- ["CSo8UIButton", "shadowOpacity"]
+- ["CSo8UIButton", "shadowRadius"]
+- !private ["CSo7UIColor", "CGColor"]
+- ["CSo7UIColor", "clearColor"]
+- ["CSo9UIControl", "CGFloat"]
+- !private ["CSo9UIControl", "Float"]
+- ["CSo9UIControl", "UIColor"]
+- ["CSo9UIControl", "borderColor"]
+- ["CSo9UIControl", "borderWidth"]
+- ["CSo9UIControl", "cornerRadius"]
+- ["CSo9UIControl", "init"]
+- !private ["CSo9UIControl", "layer"]
+- ["CSo9UIControl", "shadowColor"]
+- ["CSo9UIControl", "shadowOffsetY"]
+- ["CSo9UIControl", "shadowOpacity"]
+- ["CSo9UIControl", "shadowRadius"]
+- !private ["PSo17UICoordinateSpace", "Float"]
+- ["PSo17UICoordinateSpace", "UIColor"]
+- ["PSo17UICoordinateSpace", "borderColor"]
+- ["PSo17UICoordinateSpace", "borderWidth"]
+- ["PSo17UICoordinateSpace", "cornerRadius"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- ["PSo17UICoordinateSpace", "shadowColor"]
+- ["PSo17UICoordinateSpace", "shadowOffsetY"]
+- ["PSo17UICoordinateSpace", "shadowOpacity"]
+- ["PSo17UICoordinateSpace", "shadowRadius"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "Float"]
+- ["PSo13UIDynamicItem", "UIColor"]
+- ["PSo13UIDynamicItem", "borderColor"]
+- ["PSo13UIDynamicItem", "borderWidth"]
+- ["PSo13UIDynamicItem", "cornerRadius"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- ["PSo13UIDynamicItem", "shadowColor"]
+- ["PSo13UIDynamicItem", "shadowOffsetY"]
+- ["PSo13UIDynamicItem", "shadowOpacity"]
+- ["PSo13UIDynamicItem", "shadowRadius"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "Float"]
+- ["PSo18UIFocusEnvironment", "UIColor"]
+- ["PSo18UIFocusEnvironment", "borderColor"]
+- ["PSo18UIFocusEnvironment", "borderWidth"]
+- ["PSo18UIFocusEnvironment", "cornerRadius"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- ["PSo18UIFocusEnvironment", "shadowColor"]
+- ["PSo18UIFocusEnvironment", "shadowOffsetY"]
+- ["PSo18UIFocusEnvironment", "shadowOpacity"]
+- ["PSo18UIFocusEnvironment", "shadowRadius"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "CGFloat"]
+- !private ["CSo11UIResponder", "Float"]
+- ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "borderColor"]
+- ["CSo11UIResponder", "borderWidth"]
+- ["CSo11UIResponder", "cornerRadius"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layer"]
+- ["CSo11UIResponder", "shadowColor"]
+- ["CSo11UIResponder", "shadowOffsetY"]
+- ["CSo11UIResponder", "shadowOpacity"]
+- ["CSo11UIResponder", "shadowRadius"]
+- !private ["PSo18UITraitEnvironment", "Float"]
+- ["PSo18UITraitEnvironment", "UIColor"]
+- ["PSo18UITraitEnvironment", "borderColor"]
+- ["PSo18UITraitEnvironment", "borderWidth"]
+- ["PSo18UITraitEnvironment", "cornerRadius"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- ["PSo18UITraitEnvironment", "shadowColor"]
+- ["PSo18UITraitEnvironment", "shadowOffsetY"]
+- ["PSo18UITraitEnvironment", "shadowOpacity"]
+- ["PSo18UITraitEnvironment", "shadowRadius"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGFloat"]
+- !private ["CSo6UIView", "Float"]
+- ["CSo6UIView", "UIColor"]
+- ["CSo6UIView", "borderColor"]
+- ["CSo6UIView", "borderWidth"]
+- ["CSo6UIView", "cornerRadius"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "layer"]
+- ["CSo6UIView", "shadowColor"]
+- ["CSo6UIView", "shadowOffsetY"]
+- ["CSo6UIView", "shadowOpacity"]
+- ["CSo6UIView", "shadowRadius"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs24_ColorLiteralConvertible", "CGColor"]
+- ["PSs24_ColorLiteralConvertible", "clearColor"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs12_Reflectable", "Float"]
+- ["PSs12_Reflectable", "UIColor"]
+- ["PSs12_Reflectable", "borderColor"]
+- ["PSs12_Reflectable", "borderWidth"]
+- ["PSs12_Reflectable", "cornerRadius"]
+- !private ["PSs12_Reflectable", "height"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "layer"]
+- ["PSs12_Reflectable", "shadowColor"]
+- ["PSs12_Reflectable", "shadowOffsetY"]
+- ["PSs12_Reflectable", "shadowOpacity"]
+- ["PSs12_Reflectable", "shadowRadius"]
+- ["PSs12_Reflectable", ""]
+- !private ["PSs11_Strideable", "init"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- "V12CoreGraphics7CGFloat"
+- !private "VSC6CGSize"
+- "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- "PSs23CustomStringConvertible"
+- "C8Ingenium16DesignableButton"
+- "PSs9Equatable"
+- !private "Sf"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- "PSs8Hashable"
+- !private "PSs25IntegerLiteralConvertible"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- !private "PSs16SignedNumberType"
+- "C8Ingenium12SpringButton"
+- "P8Ingenium10Springable"
+- !private "PSs10Strideable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo8UIButton"
+- "CSo7UIColor"
+- "CSo9UIControl"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "PSs31_BuiltinFloatLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- "PSs24_ColorLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFURL.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFTask.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFDefines.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/Bolts.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFPurchase.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFProduct.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFPush.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFInstallation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFSession.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFRole.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFRelation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFQuery.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFFile.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFConfig.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFCloud.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFObject.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFUser.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFACL.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/Parse.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "0a011ea9267bead99548d9239daf6762"

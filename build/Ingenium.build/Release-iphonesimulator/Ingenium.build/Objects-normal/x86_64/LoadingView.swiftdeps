@@ -1,0 +1,886 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoadingView"
+provides-nominal:
+- "C8Ingenium11LoadingView"
+- "VE8IngeniumCSo6UIView20LoadingViewConstants"
+provides-member:
+- ["C8Ingenium11LoadingView", ""]
+- ["CSo6UIView", ""]
+- ["VE8IngeniumCSo6UIView20LoadingViewConstants", ""]
+- ["CSo6UIView", "LoadingViewConstants"]
+- ["CSo6UIView", "showLoading"]
+- ["CSo6UIView", "hideLoading"]
+provides-dynamic-lookup:
+- "indicatorView"
+- "designCodeLoadingView"
+- "awakeFromNib"
+- "showLoading"
+- "hideLoading"
+depends-top-level:
+- !private "degreesToRadians"
+- !private "StringLiteralType"
+- !private "CGAffineTransformMakeScale"
+- !private "Void"
+- "UIView"
+- !private "!="
+- !private "NSBundle"
+- !private "SpringAnimation"
+- "LoadingView"
+- !private "HUGE"
+- !private "CABasicAnimation"
+- "SpringView"
+depends-member:
+- !private ["PSs9AnyObject", "CABasicAnimation"]
+- !private ["PSs9AnyObject", "CGAffineTransformMakeScale"]
+- !private ["PSs9AnyObject", "HUGE"]
+- !private ["PSs9AnyObject", "LoadingView"]
+- !private ["PSs9AnyObject", "LoadingViewConstants"]
+- !private ["PSs9AnyObject", "NSBundle"]
+- !private ["PSs9AnyObject", "SpringAnimation"]
+- !private ["PSs9AnyObject", "addAnimation"]
+- !private ["PSs9AnyObject", "addSubview"]
+- !private ["PSs9AnyObject", "alpha"]
+- ["PSs9AnyObject", "awakeFromNib"]
+- !private ["PSs9AnyObject", "bounds"]
+- !private ["PSs9AnyObject", "degreesToRadians"]
+- ["PSs9AnyObject", "designCodeLoadingView"]
+- !private ["PSs9AnyObject", "duration"]
+- !private ["PSs9AnyObject", "frame"]
+- !private ["PSs9AnyObject", "fromValue"]
+- ["PSs9AnyObject", "hideLoading"]
+- ["PSs9AnyObject", "indicatorView"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "keyPath"]
+- !private ["PSs9AnyObject", "layer"]
+- !private ["PSs9AnyObject", "loadNibNamed"]
+- !private ["PSs9AnyObject", "removeFromSuperview"]
+- !private ["PSs9AnyObject", "repeatCount"]
+- ["PSs9AnyObject", "showLoading"]
+- !private ["PSs9AnyObject", "spring"]
+- !private ["PSs9AnyObject", "springWithCompletion"]
+- !private ["PSs9AnyObject", "tag"]
+- !private ["PSs9AnyObject", "toValue"]
+- !private ["PSs9AnyObject", "transform"]
+- !private ["PSs9AnyObject", "viewWithTag"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "subscript"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "subscript"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSo8CAAction", "duration"]
+- !private ["PSo8CAAction", "fromValue"]
+- !private ["PSo8CAAction", "init"]
+- !private ["PSo8CAAction", "keyPath"]
+- !private ["PSo8CAAction", "repeatCount"]
+- !private ["PSo8CAAction", "toValue"]
+- !private ["CSo11CAAnimation", "duration"]
+- !private ["CSo11CAAnimation", "fromValue"]
+- !private ["CSo11CAAnimation", "keyPath"]
+- !private ["CSo11CAAnimation", "repeatCount"]
+- !private ["CSo11CAAnimation", "toValue"]
+- !private ["CSo16CABasicAnimation", "duration"]
+- !private ["CSo16CABasicAnimation", "fromValue"]
+- !private ["CSo16CABasicAnimation", "init"]
+- !private ["CSo16CABasicAnimation", "keyPath"]
+- !private ["CSo16CABasicAnimation", "repeatCount"]
+- !private ["CSo16CABasicAnimation", "toValue"]
+- !private ["CSo7CALayer", "addAnimation"]
+- !private ["PSo13CAMediaTiming", "addAnimation"]
+- !private ["PSo13CAMediaTiming", "duration"]
+- !private ["PSo13CAMediaTiming", "fromValue"]
+- !private ["PSo13CAMediaTiming", "init"]
+- !private ["PSo13CAMediaTiming", "keyPath"]
+- !private ["PSo13CAMediaTiming", "repeatCount"]
+- !private ["PSo13CAMediaTiming", "toValue"]
+- !private ["CSo19CAPropertyAnimation", "duration"]
+- !private ["CSo19CAPropertyAnimation", "fromValue"]
+- !private ["CSo19CAPropertyAnimation", "keyPath"]
+- !private ["CSo19CAPropertyAnimation", "repeatCount"]
+- !private ["CSo19CAPropertyAnimation", "toValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "CABasicAnimation"]
+- !private ["PSs11CVarArgType", "CGAffineTransformMakeScale"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "HUGE"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "LoadingView"]
+- !private ["PSs11CVarArgType", "LoadingViewConstants"]
+- !private ["PSs11CVarArgType", "NSBundle"]
+- !private ["PSs11CVarArgType", "SpringAnimation"]
+- !private ["PSs11CVarArgType", "addAnimation"]
+- !private ["PSs11CVarArgType", "addSubview"]
+- !private ["PSs11CVarArgType", "alpha"]
+- ["PSs11CVarArgType", "awakeFromNib"]
+- !private ["PSs11CVarArgType", "bounds"]
+- !private ["PSs11CVarArgType", "degreesToRadians"]
+- ["PSs11CVarArgType", "designCodeLoadingView"]
+- !private ["PSs11CVarArgType", "duration"]
+- !private ["PSs11CVarArgType", "frame"]
+- !private ["PSs11CVarArgType", "fromValue"]
+- ["PSs11CVarArgType", "hideLoading"]
+- ["PSs11CVarArgType", "indicatorView"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "keyPath"]
+- !private ["PSs11CVarArgType", "layer"]
+- !private ["PSs11CVarArgType", "loadNibNamed"]
+- !private ["PSs11CVarArgType", "removeFromSuperview"]
+- !private ["PSs11CVarArgType", "repeatCount"]
+- ["PSs11CVarArgType", "showLoading"]
+- !private ["PSs11CVarArgType", "spring"]
+- !private ["PSs11CVarArgType", "springWithCompletion"]
+- !private ["PSs11CVarArgType", "tag"]
+- !private ["PSs11CVarArgType", "toValue"]
+- !private ["PSs11CVarArgType", "transform"]
+- !private ["PSs11CVarArgType", "viewWithTag"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "CABasicAnimation"]
+- !private ["PSs23CustomStringConvertible", "CGAffineTransformMakeScale"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "HUGE"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "LoadingView"]
+- !private ["PSs23CustomStringConvertible", "LoadingViewConstants"]
+- !private ["PSs23CustomStringConvertible", "NSBundle"]
+- !private ["PSs23CustomStringConvertible", "SpringAnimation"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addAnimation"]
+- !private ["PSs23CustomStringConvertible", "addSubview"]
+- !private ["PSs23CustomStringConvertible", "alpha"]
+- ["PSs23CustomStringConvertible", "awakeFromNib"]
+- !private ["PSs23CustomStringConvertible", "bounds"]
+- !private ["PSs23CustomStringConvertible", "degreesToRadians"]
+- ["PSs23CustomStringConvertible", "designCodeLoadingView"]
+- !private ["PSs23CustomStringConvertible", "duration"]
+- !private ["PSs23CustomStringConvertible", "frame"]
+- !private ["PSs23CustomStringConvertible", "fromValue"]
+- ["PSs23CustomStringConvertible", "hideLoading"]
+- ["PSs23CustomStringConvertible", "indicatorView"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "keyPath"]
+- !private ["PSs23CustomStringConvertible", "layer"]
+- !private ["PSs23CustomStringConvertible", "loadNibNamed"]
+- !private ["PSs23CustomStringConvertible", "removeFromSuperview"]
+- !private ["PSs23CustomStringConvertible", "repeatCount"]
+- ["PSs23CustomStringConvertible", "showLoading"]
+- !private ["PSs23CustomStringConvertible", "spring"]
+- !private ["PSs23CustomStringConvertible", "springWithCompletion"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "tag"]
+- !private ["PSs23CustomStringConvertible", "toValue"]
+- !private ["PSs23CustomStringConvertible", "transform"]
+- !private ["PSs23CustomStringConvertible", "viewWithTag"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CABasicAnimation"]
+- !private ["PSs9Equatable", "CGAffineTransformMakeScale"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "HUGE"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "LoadingView"]
+- !private ["PSs9Equatable", "LoadingViewConstants"]
+- !private ["PSs9Equatable", "NSBundle"]
+- !private ["PSs9Equatable", "SpringAnimation"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addAnimation"]
+- !private ["PSs9Equatable", "addSubview"]
+- !private ["PSs9Equatable", "alpha"]
+- ["PSs9Equatable", "awakeFromNib"]
+- !private ["PSs9Equatable", "bounds"]
+- !private ["PSs9Equatable", "degreesToRadians"]
+- ["PSs9Equatable", "designCodeLoadingView"]
+- !private ["PSs9Equatable", "duration"]
+- !private ["PSs9Equatable", "frame"]
+- !private ["PSs9Equatable", "fromValue"]
+- ["PSs9Equatable", "hideLoading"]
+- ["PSs9Equatable", "indicatorView"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "keyPath"]
+- !private ["PSs9Equatable", "layer"]
+- !private ["PSs9Equatable", "loadNibNamed"]
+- !private ["PSs9Equatable", "removeFromSuperview"]
+- !private ["PSs9Equatable", "repeatCount"]
+- ["PSs9Equatable", "showLoading"]
+- !private ["PSs9Equatable", "spring"]
+- !private ["PSs9Equatable", "springWithCompletion"]
+- !private ["PSs9Equatable", "tag"]
+- !private ["PSs9Equatable", "toValue"]
+- !private ["PSs9Equatable", "transform"]
+- !private ["PSs9Equatable", "viewWithTag"]
+- ["PSs9Equatable", ""]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "CABasicAnimation"]
+- !private ["PSs8Hashable", "CGAffineTransformMakeScale"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "HUGE"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "LoadingView"]
+- !private ["PSs8Hashable", "LoadingViewConstants"]
+- !private ["PSs8Hashable", "NSBundle"]
+- !private ["PSs8Hashable", "SpringAnimation"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addAnimation"]
+- !private ["PSs8Hashable", "addSubview"]
+- !private ["PSs8Hashable", "alpha"]
+- ["PSs8Hashable", "awakeFromNib"]
+- !private ["PSs8Hashable", "bounds"]
+- !private ["PSs8Hashable", "degreesToRadians"]
+- ["PSs8Hashable", "designCodeLoadingView"]
+- !private ["PSs8Hashable", "duration"]
+- !private ["PSs8Hashable", "frame"]
+- !private ["PSs8Hashable", "fromValue"]
+- ["PSs8Hashable", "hideLoading"]
+- ["PSs8Hashable", "indicatorView"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "keyPath"]
+- !private ["PSs8Hashable", "layer"]
+- !private ["PSs8Hashable", "loadNibNamed"]
+- !private ["PSs8Hashable", "removeFromSuperview"]
+- !private ["PSs8Hashable", "repeatCount"]
+- ["PSs8Hashable", "showLoading"]
+- !private ["PSs8Hashable", "spring"]
+- !private ["PSs8Hashable", "springWithCompletion"]
+- !private ["PSs8Hashable", "tag"]
+- !private ["PSs8Hashable", "toValue"]
+- !private ["PSs8Hashable", "transform"]
+- !private ["PSs8Hashable", "viewWithTag"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["C8Ingenium11LoadingView", "CABasicAnimation"]
+- !private ["C8Ingenium11LoadingView", "HUGE"]
+- !private ["C8Ingenium11LoadingView", "NSBundle"]
+- ["C8Ingenium11LoadingView", "SpringView"]
+- ["C8Ingenium11LoadingView", "UIView"]
+- ["C8Ingenium11LoadingView", "awakeFromNib"]
+- !private ["C8Ingenium11LoadingView", "degreesToRadians"]
+- ["C8Ingenium11LoadingView", "deinit"]
+- ["C8Ingenium11LoadingView", "designCodeLoadingView"]
+- ["C8Ingenium11LoadingView", "indicatorView"]
+- ["C8Ingenium11LoadingView", "init"]
+- ["VE8IngeniumCSo6UIView20LoadingViewConstants", "Tag"]
+- ["VE8IngeniumCSo6UIView20LoadingViewConstants", "init"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "subscript"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "subscript"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "subscript"]
+- !private ["CSo8NSBundle", "init"]
+- !private ["CSo8NSBundle", "loadNibNamed"]
+- !private ["PSo8NSCoding", "CABasicAnimation"]
+- !private ["PSo8NSCoding", "CGAffineTransformMakeScale"]
+- !private ["PSo8NSCoding", "HUGE"]
+- !private ["PSo8NSCoding", "LoadingView"]
+- !private ["PSo8NSCoding", "LoadingViewConstants"]
+- !private ["PSo8NSCoding", "NSBundle"]
+- !private ["PSo8NSCoding", "SpringAnimation"]
+- !private ["PSo8NSCoding", "addAnimation"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "alpha"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "degreesToRadians"]
+- ["PSo8NSCoding", "designCodeLoadingView"]
+- !private ["PSo8NSCoding", "duration"]
+- !private ["PSo8NSCoding", "frame"]
+- !private ["PSo8NSCoding", "fromValue"]
+- ["PSo8NSCoding", "indicatorView"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "keyPath"]
+- !private ["PSo8NSCoding", "layer"]
+- !private ["PSo8NSCoding", "removeFromSuperview"]
+- !private ["PSo8NSCoding", "repeatCount"]
+- !private ["PSo8NSCoding", "tag"]
+- !private ["PSo8NSCoding", "toValue"]
+- !private ["PSo8NSCoding", "transform"]
+- !private ["PSo8NSCoding", "viewWithTag"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "duration"]
+- !private ["PSo9NSCopying", "fromValue"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "keyPath"]
+- !private ["PSo9NSCopying", "repeatCount"]
+- !private ["PSo9NSCopying", "toValue"]
+- !private ["CSo8NSObject", "CABasicAnimation"]
+- !private ["CSo8NSObject", "CGAffineTransformMakeScale"]
+- !private ["CSo8NSObject", "HUGE"]
+- !private ["CSo8NSObject", "LoadingView"]
+- !private ["CSo8NSObject", "LoadingViewConstants"]
+- !private ["CSo8NSObject", "NSBundle"]
+- !private ["CSo8NSObject", "SpringAnimation"]
+- ["CSo8NSObject", "SpringView"]
+- ["CSo8NSObject", "UIView"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addAnimation"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "alpha"]
+- ["CSo8NSObject", "awakeFromNib"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "degreesToRadians"]
+- ["CSo8NSObject", "designCodeLoadingView"]
+- !private ["CSo8NSObject", "duration"]
+- !private ["CSo8NSObject", "frame"]
+- !private ["CSo8NSObject", "fromValue"]
+- ["CSo8NSObject", "hideLoading"]
+- ["CSo8NSObject", "indicatorView"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "keyPath"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "loadNibNamed"]
+- !private ["CSo8NSObject", "removeFromSuperview"]
+- !private ["CSo8NSObject", "repeatCount"]
+- ["CSo8NSObject", "showLoading"]
+- !private ["CSo8NSObject", "spring"]
+- !private ["CSo8NSObject", "springWithCompletion"]
+- !private ["CSo8NSObject", "tag"]
+- !private ["CSo8NSObject", "toValue"]
+- !private ["CSo8NSObject", "transform"]
+- !private ["CSo8NSObject", "viewWithTag"]
+- !private ["PSo16NSObjectProtocol", "CABasicAnimation"]
+- !private ["PSo16NSObjectProtocol", "CGAffineTransformMakeScale"]
+- !private ["PSo16NSObjectProtocol", "HUGE"]
+- !private ["PSo16NSObjectProtocol", "LoadingView"]
+- !private ["PSo16NSObjectProtocol", "LoadingViewConstants"]
+- !private ["PSo16NSObjectProtocol", "NSBundle"]
+- !private ["PSo16NSObjectProtocol", "SpringAnimation"]
+- !private ["PSo16NSObjectProtocol", "addAnimation"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "alpha"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "degreesToRadians"]
+- ["PSo16NSObjectProtocol", "designCodeLoadingView"]
+- !private ["PSo16NSObjectProtocol", "duration"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- !private ["PSo16NSObjectProtocol", "fromValue"]
+- ["PSo16NSObjectProtocol", "hideLoading"]
+- ["PSo16NSObjectProtocol", "indicatorView"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "keyPath"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "loadNibNamed"]
+- !private ["PSo16NSObjectProtocol", "removeFromSuperview"]
+- !private ["PSo16NSObjectProtocol", "repeatCount"]
+- ["PSo16NSObjectProtocol", "showLoading"]
+- !private ["PSo16NSObjectProtocol", "spring"]
+- !private ["PSo16NSObjectProtocol", "springWithCompletion"]
+- !private ["PSo16NSObjectProtocol", "tag"]
+- !private ["PSo16NSObjectProtocol", "toValue"]
+- !private ["PSo16NSObjectProtocol", "transform"]
+- !private ["PSo16NSObjectProtocol", "viewWithTag"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["VSs5Range", "deinit"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "subscript"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["C8Ingenium15SpringAnimation", "spring"]
+- !private ["C8Ingenium15SpringAnimation", "springWithCompletion"]
+- !private ["C8Ingenium10SpringView", "deinit"]
+- !private ["C8Ingenium10SpringView", "layer"]
+- !private ["P8Ingenium10Springable", "layer"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSo29UIAccessibilityIdentification", "CABasicAnimation"]
+- !private ["PSo29UIAccessibilityIdentification", "CGAffineTransformMakeScale"]
+- !private ["PSo29UIAccessibilityIdentification", "HUGE"]
+- !private ["PSo29UIAccessibilityIdentification", "LoadingView"]
+- !private ["PSo29UIAccessibilityIdentification", "LoadingViewConstants"]
+- !private ["PSo29UIAccessibilityIdentification", "NSBundle"]
+- !private ["PSo29UIAccessibilityIdentification", "SpringAnimation"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "alpha"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- !private ["PSo29UIAccessibilityIdentification", "degreesToRadians"]
+- ["PSo29UIAccessibilityIdentification", "designCodeLoadingView"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- ["PSo29UIAccessibilityIdentification", "indicatorView"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo29UIAccessibilityIdentification", "removeFromSuperview"]
+- !private ["PSo29UIAccessibilityIdentification", "tag"]
+- !private ["PSo29UIAccessibilityIdentification", "transform"]
+- !private ["PSo29UIAccessibilityIdentification", "viewWithTag"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CABasicAnimation"]
+- !private ["PSo12UIAppearance", "CGAffineTransformMakeScale"]
+- !private ["PSo12UIAppearance", "HUGE"]
+- !private ["PSo12UIAppearance", "LoadingView"]
+- !private ["PSo12UIAppearance", "LoadingViewConstants"]
+- !private ["PSo12UIAppearance", "NSBundle"]
+- !private ["PSo12UIAppearance", "SpringAnimation"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "alpha"]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- !private ["PSo12UIAppearance", "bounds"]
+- !private ["PSo12UIAppearance", "degreesToRadians"]
+- ["PSo12UIAppearance", "designCodeLoadingView"]
+- !private ["PSo12UIAppearance", "frame"]
+- ["PSo12UIAppearance", "indicatorView"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo12UIAppearance", "removeFromSuperview"]
+- !private ["PSo12UIAppearance", "tag"]
+- !private ["PSo12UIAppearance", "transform"]
+- !private ["PSo12UIAppearance", "viewWithTag"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CABasicAnimation"]
+- !private ["PSo21UIAppearanceContainer", "CGAffineTransformMakeScale"]
+- !private ["PSo21UIAppearanceContainer", "HUGE"]
+- !private ["PSo21UIAppearanceContainer", "LoadingView"]
+- !private ["PSo21UIAppearanceContainer", "LoadingViewConstants"]
+- !private ["PSo21UIAppearanceContainer", "NSBundle"]
+- !private ["PSo21UIAppearanceContainer", "SpringAnimation"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "alpha"]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- !private ["PSo21UIAppearanceContainer", "degreesToRadians"]
+- ["PSo21UIAppearanceContainer", "designCodeLoadingView"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- ["PSo21UIAppearanceContainer", "indicatorView"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- !private ["PSo21UIAppearanceContainer", "removeFromSuperview"]
+- !private ["PSo21UIAppearanceContainer", "tag"]
+- !private ["PSo21UIAppearanceContainer", "transform"]
+- !private ["PSo21UIAppearanceContainer", "viewWithTag"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "CABasicAnimation"]
+- !private ["PSo17UICoordinateSpace", "CGAffineTransformMakeScale"]
+- !private ["PSo17UICoordinateSpace", "HUGE"]
+- !private ["PSo17UICoordinateSpace", "LoadingView"]
+- !private ["PSo17UICoordinateSpace", "LoadingViewConstants"]
+- !private ["PSo17UICoordinateSpace", "NSBundle"]
+- !private ["PSo17UICoordinateSpace", "SpringAnimation"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "alpha"]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- !private ["PSo17UICoordinateSpace", "degreesToRadians"]
+- ["PSo17UICoordinateSpace", "designCodeLoadingView"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- ["PSo17UICoordinateSpace", "indicatorView"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo17UICoordinateSpace", "removeFromSuperview"]
+- !private ["PSo17UICoordinateSpace", "tag"]
+- !private ["PSo17UICoordinateSpace", "transform"]
+- !private ["PSo17UICoordinateSpace", "viewWithTag"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CABasicAnimation"]
+- !private ["PSo13UIDynamicItem", "CGAffineTransformMakeScale"]
+- !private ["PSo13UIDynamicItem", "HUGE"]
+- !private ["PSo13UIDynamicItem", "LoadingView"]
+- !private ["PSo13UIDynamicItem", "LoadingViewConstants"]
+- !private ["PSo13UIDynamicItem", "NSBundle"]
+- !private ["PSo13UIDynamicItem", "SpringAnimation"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "alpha"]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- !private ["PSo13UIDynamicItem", "degreesToRadians"]
+- ["PSo13UIDynamicItem", "designCodeLoadingView"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- ["PSo13UIDynamicItem", "indicatorView"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo13UIDynamicItem", "removeFromSuperview"]
+- !private ["PSo13UIDynamicItem", "tag"]
+- !private ["PSo13UIDynamicItem", "transform"]
+- !private ["PSo13UIDynamicItem", "viewWithTag"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CABasicAnimation"]
+- !private ["PSo18UIFocusEnvironment", "CGAffineTransformMakeScale"]
+- !private ["PSo18UIFocusEnvironment", "HUGE"]
+- !private ["PSo18UIFocusEnvironment", "LoadingView"]
+- !private ["PSo18UIFocusEnvironment", "LoadingViewConstants"]
+- !private ["PSo18UIFocusEnvironment", "NSBundle"]
+- !private ["PSo18UIFocusEnvironment", "SpringAnimation"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "alpha"]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- !private ["PSo18UIFocusEnvironment", "degreesToRadians"]
+- ["PSo18UIFocusEnvironment", "designCodeLoadingView"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- ["PSo18UIFocusEnvironment", "indicatorView"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- !private ["PSo18UIFocusEnvironment", "removeFromSuperview"]
+- !private ["PSo18UIFocusEnvironment", "tag"]
+- !private ["PSo18UIFocusEnvironment", "transform"]
+- !private ["PSo18UIFocusEnvironment", "viewWithTag"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIResponder", "CABasicAnimation"]
+- !private ["CSo11UIResponder", "CGAffineTransformMakeScale"]
+- !private ["CSo11UIResponder", "HUGE"]
+- !private ["CSo11UIResponder", "LoadingView"]
+- !private ["CSo11UIResponder", "LoadingViewConstants"]
+- !private ["CSo11UIResponder", "NSBundle"]
+- !private ["CSo11UIResponder", "SpringAnimation"]
+- ["CSo11UIResponder", "SpringView"]
+- ["CSo11UIResponder", "UIView"]
+- !private ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "alpha"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- !private ["CSo11UIResponder", "bounds"]
+- !private ["CSo11UIResponder", "degreesToRadians"]
+- ["CSo11UIResponder", "designCodeLoadingView"]
+- !private ["CSo11UIResponder", "frame"]
+- ["CSo11UIResponder", "hideLoading"]
+- ["CSo11UIResponder", "indicatorView"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layer"]
+- !private ["CSo11UIResponder", "removeFromSuperview"]
+- ["CSo11UIResponder", "showLoading"]
+- !private ["CSo11UIResponder", "tag"]
+- !private ["CSo11UIResponder", "transform"]
+- !private ["CSo11UIResponder", "viewWithTag"]
+- !private ["PSo18UITraitEnvironment", "CABasicAnimation"]
+- !private ["PSo18UITraitEnvironment", "CGAffineTransformMakeScale"]
+- !private ["PSo18UITraitEnvironment", "HUGE"]
+- !private ["PSo18UITraitEnvironment", "LoadingView"]
+- !private ["PSo18UITraitEnvironment", "LoadingViewConstants"]
+- !private ["PSo18UITraitEnvironment", "NSBundle"]
+- !private ["PSo18UITraitEnvironment", "SpringAnimation"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "alpha"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "degreesToRadians"]
+- ["PSo18UITraitEnvironment", "designCodeLoadingView"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- ["PSo18UITraitEnvironment", "indicatorView"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- !private ["PSo18UITraitEnvironment", "removeFromSuperview"]
+- !private ["PSo18UITraitEnvironment", "tag"]
+- !private ["PSo18UITraitEnvironment", "transform"]
+- !private ["PSo18UITraitEnvironment", "viewWithTag"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "CABasicAnimation"]
+- !private ["CSo6UIView", "CGAffineTransformMakeScale"]
+- !private ["CSo6UIView", "HUGE"]
+- !private ["CSo6UIView", "LoadingView"]
+- ["CSo6UIView", "LoadingViewConstants"]
+- !private ["CSo6UIView", "NSBundle"]
+- !private ["CSo6UIView", "SpringAnimation"]
+- ["CSo6UIView", "SpringView"]
+- ["CSo6UIView", "UIView"]
+- !private ["CSo6UIView", "Void"]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "alpha"]
+- ["CSo6UIView", "awakeFromNib"]
+- !private ["CSo6UIView", "bounds"]
+- !private ["CSo6UIView", "degreesToRadians"]
+- ["CSo6UIView", "designCodeLoadingView"]
+- !private ["CSo6UIView", "frame"]
+- ["CSo6UIView", "hideLoading"]
+- ["CSo6UIView", "indicatorView"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "layer"]
+- !private ["CSo6UIView", "removeFromSuperview"]
+- ["CSo6UIView", "showLoading"]
+- !private ["CSo6UIView", "tag"]
+- !private ["CSo6UIView", "transform"]
+- !private ["CSo6UIView", "viewWithTag"]
+- ["CSo6UIView", ""]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "subscript"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "subscript"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "CABasicAnimation"]
+- !private ["PSs12_Reflectable", "CGAffineTransformMakeScale"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "HUGE"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "LoadingView"]
+- !private ["PSs12_Reflectable", "LoadingViewConstants"]
+- !private ["PSs12_Reflectable", "NSBundle"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "SpringAnimation"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "addSubview"]
+- !private ["PSs12_Reflectable", "alpha"]
+- ["PSs12_Reflectable", "awakeFromNib"]
+- !private ["PSs12_Reflectable", "bounds"]
+- !private ["PSs12_Reflectable", "degreesToRadians"]
+- ["PSs12_Reflectable", "designCodeLoadingView"]
+- !private ["PSs12_Reflectable", "frame"]
+- ["PSs12_Reflectable", "indicatorView"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "layer"]
+- !private ["PSs12_Reflectable", "removeFromSuperview"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs12_Reflectable", "tag"]
+- !private ["PSs12_Reflectable", "transform"]
+- !private ["PSs12_Reflectable", "viewWithTag"]
+- ["PSs12_Reflectable", ""]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "PSo8CAAction"
+- !private "CSo11CAAnimation"
+- !private "CSo16CABasicAnimation"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "CSo19CAPropertyAnimation"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- "C8Ingenium11LoadingView"
+- "VE8IngeniumCSo6UIView20LoadingViewConstants"
+- !private "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- !private "CSo8NSBundle"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- !private "PSs21RandomAccessIndexType"
+- !private "VSs5Range"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "C8Ingenium15SpringAnimation"
+- !private "C8Ingenium10SpringView"
+- !private "P8Ingenium10Springable"
+- !private "PSs10Strideable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFURL.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFTask.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFDefines.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Headers/Bolts.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Bolts.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFPurchase.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFProduct.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFPush.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFInstallation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFSession.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFRole.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFRelation.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFQuery.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFFile.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFConfig.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFCloud.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFObject.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFUser.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/PFACL.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Headers/Parse.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/Parse.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/varun/Documents/2015Desktop/SwiftAdventures/Ingenium/Ingenium/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "96ac51b1f95d66b025c78fa3035f36c7"
